@@ -2,6 +2,7 @@ package net.stohun.swatch;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.stohun.swatch.block.ModBlocks;
 import net.stohun.swatch.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class Swatch implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

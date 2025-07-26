@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "swatch:block/egg_block"
+    }
+  }
+}
