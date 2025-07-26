@@ -3,5 +3,7 @@
   "item.swatch.raw_pink_garnet": "Raw Pink Garnet",
 
   "block.swatch.egg_block": "Egg Block",
-  "block.swatch.rotten_egg_block": "Rotten Egg Block"
+  "block.swatch.rotten_egg_block": "Rotten Egg Block",
+
+  "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }
