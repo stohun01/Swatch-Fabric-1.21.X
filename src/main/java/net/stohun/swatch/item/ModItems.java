@@ -21,8 +21,7 @@ public class ModItems {
         Swatch.LOGGER.info("Registering Mod Items for " + Swatch.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-            entries.add(RAW_PINK_GARNET);
+            //entries.add(PINK_GARNET);
         });
     }
 }

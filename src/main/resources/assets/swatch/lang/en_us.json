@@ -1,9 +1,10 @@
 {
-  "item.swatch.pink_garnet": "Pink Garnet",
-  "item.swatch.raw_pink_garnet": "Raw Pink Garnet",
-
   "block.swatch.egg_block": "Egg Block",
+  "block.swatch.egg_stairs": "Egg Stairs",
+  "block.swatch.egg_slab": "Egg Slab",
   "block.swatch.rotten_egg_block": "Rotten Egg Block",
+  "block.swatch.rotten_egg_stairs": "Rotten Egg Stairs",
+  "block.swatch.rotten_egg_slab": "Rotten Egg Slab",
   "block.swatch.embalm": "Embalm",
 
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"

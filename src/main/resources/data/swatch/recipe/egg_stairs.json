@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:egg_block"
+    }
+  },
+  "result": {
+    "id": "swatch:egg_stairs",
+    "count": 4
+  }
+}
