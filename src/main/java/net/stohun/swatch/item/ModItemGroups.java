@@ -21,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EGG_STAIRS);
                         entries.add(ModBlocks.EGG_SLAB);
                         entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
+                        entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
+                        entries.add(ModBlocks.ROTTEN_EGG_SLAB);
                         entries.add(ModBlocks.EMBALM);
 
                     }).build());

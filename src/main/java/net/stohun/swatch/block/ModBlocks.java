@@ -31,6 +31,13 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
+    public static final Block ROTTEN_EGG_STAIRS = registerBlock("rotten_egg_stairs",
+            new StairsBlock(ModBlocks.EGG_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block ROTTEN_EGG_SLAB = registerBlock("rotten_egg_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
     public static final Block EMBALM = registerBlock("embalm",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
@@ -54,6 +61,8 @@ public class ModBlocks {
             entries.add(ModBlocks.EGG_STAIRS);
             entries.add(ModBlocks.EGG_SLAB);
             entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
+            entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
+            entries.add(ModBlocks.ROTTEN_EGG_SLAB);
             entries.add(ModBlocks.EMBALM);
         });
     }
