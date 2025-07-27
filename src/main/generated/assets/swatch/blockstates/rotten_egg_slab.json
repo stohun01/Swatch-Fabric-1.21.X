@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/rotten_egg_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/rotten_egg_block"
+    },
+    "type=top": {
+      "model": "swatch:block/rotten_egg_slab_top"
+    }
+  }
+}
