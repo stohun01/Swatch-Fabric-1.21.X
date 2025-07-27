@@ -18,7 +18,10 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.swatch.swatch_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.EGG_BLOCK);
+                        entries.add(ModBlocks.EGG_STAIRS);
+                        entries.add(ModBlocks.EGG_SLAB);
                         entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
+                        entries.add(ModBlocks.EMBALM);
 
                     }).build());
 

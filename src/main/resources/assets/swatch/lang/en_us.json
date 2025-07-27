@@ -4,6 +4,7 @@
 
   "block.swatch.egg_block": "Egg Block",
   "block.swatch.rotten_egg_block": "Rotten Egg Block",
+  "block.swatch.embalm": "Embalm",
 
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

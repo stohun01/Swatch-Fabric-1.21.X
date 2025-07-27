@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "swatch:block/embalm_0"
+      },
+      {
+        "model": "swatch:block/embalm_1"
+      },
+      {
+        "model": "swatch:block/embalm_2"
+      }
+    ]
+  }
+}

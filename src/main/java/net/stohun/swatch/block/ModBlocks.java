@@ -3,6 +3,8 @@ package net.stohun.swatch.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -15,12 +17,24 @@ import net.stohun.swatch.Swatch;
 public class ModBlocks {
 
     public static final Block EGG_BLOCK = registerBlock("egg_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block EGG_STAIRS = registerBlock("egg_stairs",
+            new StairsBlock(ModBlocks.EGG_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block EGG_SLAB = registerBlock("egg_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
     public static final Block ROTTEN_EGG_BLOCK = registerBlock("rotten_egg_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block EMBALM = registerBlock("embalm",
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -37,7 +51,10 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.EGG_BLOCK);
+            entries.add(ModBlocks.EGG_STAIRS);
+            entries.add(ModBlocks.EGG_SLAB);
             entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
+            entries.add(ModBlocks.EMBALM);
         });
     }
 }
