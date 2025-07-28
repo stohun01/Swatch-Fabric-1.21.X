@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "swatch:block/kelp_block",
+    "side": "swatch:block/kelp_block",
+    "top": "swatch:block/kelp_block"
+  }
+}
