@@ -22,6 +22,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ROTTEN_EGG_BLOCK)
                 .add(ModBlocks.ROTTEN_EGG_STAIRS)
                 .add(ModBlocks.ROTTEN_EGG_SLAB)
-                .add(ModBlocks.EMBALM);
+                .add(ModBlocks.EMBALM)
+                .add(ModBlocks.HONEY_CRYSTAL_BLOCK)
+                .add(ModBlocks.HONEY_CRYSTAL_STAIRS)
+                .add(ModBlocks.HONEY_CRYSTAL_SLAB);
     }
 }

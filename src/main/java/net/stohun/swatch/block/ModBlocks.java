@@ -38,10 +38,31 @@ public class ModBlocks {
     public static final Block ROTTEN_EGG_SLAB = registerBlock("rotten_egg_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
+    public static final Block HONEY_CRYSTAL_BLOCK = registerBlock("honey_crystal_block",
+            new Block(AbstractBlock.Settings.create().strength(1f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block HONEY_CRYSTAL_STAIRS = registerBlock("honey_crystal_stairs",
+            new StairsBlock(ModBlocks.HONEY_CRYSTAL_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block HONEY_CRYSTAL_SLAB = registerBlock("honey_crystal_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block KELP_BLOCK = registerBlock("kelp_block",
+            new Block(AbstractBlock.Settings.create().strength(0.5f)
+                    .sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
+    public static final Block KELP_STAIRS = registerBlock("kelp_stairs",
+            new StairsBlock(ModBlocks.KELP_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
+    public static final Block KELP_SLAB = registerBlock("kelp_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
     public static final Block EMBALM = registerBlock("embalm",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
-
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -63,6 +84,12 @@ public class ModBlocks {
             entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
             entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
             entries.add(ModBlocks.ROTTEN_EGG_SLAB);
+            entries.add(ModBlocks.HONEY_CRYSTAL_BLOCK);
+            entries.add(ModBlocks.HONEY_CRYSTAL_STAIRS);
+            entries.add(ModBlocks.HONEY_CRYSTAL_SLAB);
+            entries.add(ModBlocks.KELP_BLOCK);
+            entries.add(ModBlocks.KELP_STAIRS);
+            entries.add(ModBlocks.KELP_SLAB);
             entries.add(ModBlocks.EMBALM);
         });
     }

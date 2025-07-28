@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:honeycomb_block"
+  },
+  "result": {
+    "id": "swatch:honey_crystal_block"
+  }
+}

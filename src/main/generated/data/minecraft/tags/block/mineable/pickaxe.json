@@ -6,6 +6,9 @@
     "swatch:rotten_egg_block",
     "swatch:rotten_egg_stairs",
     "swatch:rotten_egg_slab",
-    "swatch:embalm"
+    "swatch:embalm",
+    "swatch:honey_crystal_block",
+    "swatch:honey_crystal_stairs",
+    "swatch:honey_crystal_slab"
   ]
 }

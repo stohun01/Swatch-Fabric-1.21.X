@@ -21,5 +21,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ROTTEN_EGG_STAIRS);
         addDrop(ModBlocks.ROTTEN_EGG_SLAB, slabDrops(ModBlocks.ROTTEN_EGG_SLAB));
         addDrop(ModBlocks.EMBALM);
+        addDrop(ModBlocks.HONEY_CRYSTAL_BLOCK);
+        addDrop(ModBlocks.HONEY_CRYSTAL_STAIRS);
+        addDrop(ModBlocks.HONEY_CRYSTAL_SLAB, slabDrops(ModBlocks.HONEY_CRYSTAL_SLAB));
+        addDrop(ModBlocks.KELP_BLOCK);
+        addDrop(ModBlocks.KELP_STAIRS);
+        addDrop(ModBlocks.KELP_SLAB, slabDrops(ModBlocks.KELP_SLAB));
+
     }
 }

@@ -23,6 +23,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
                         entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
                         entries.add(ModBlocks.ROTTEN_EGG_SLAB);
+                        entries.add(ModBlocks.HONEY_CRYSTAL_BLOCK);
+                        entries.add(ModBlocks.HONEY_CRYSTAL_STAIRS);
+                        entries.add(ModBlocks.HONEY_CRYSTAL_SLAB);
+                        entries.add(ModBlocks.KELP_BLOCK);
+                        entries.add(ModBlocks.KELP_STAIRS);
+                        entries.add(ModBlocks.KELP_SLAB);
                         entries.add(ModBlocks.EMBALM);
 
                     }).build());

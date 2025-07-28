@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:kelp_block"
+    }
+  },
+  "result": {
+    "id": "swatch:kelp_slab",
+    "count": 6
+  }
+}

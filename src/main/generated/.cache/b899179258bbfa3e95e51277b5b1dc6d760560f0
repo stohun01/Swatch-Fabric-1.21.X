@@ -1,8 +1,14 @@
-// 1.21	2025-07-27T22:56:26.5008271	Swatch/Block Loot Tables
+// 1.21	2025-07-28T13:39:25.6677054	Swatch/Block Loot Tables
 1d2d81037148e6e33c5e41b024866074d93cb207 data\swatch\loot_table\blocks\rotten_egg_slab.json
 134a82eb77cfc9be70262ba472ab85451a64471b data\swatch\loot_table\blocks\egg_block.json
-4a4b194eb1c414c15043c6c44d779a8b5ed1080c data\swatch\loot_table\blocks\rotten_egg_stairs.json
 3ca4b0e94f19feddc4b69f06e1aba5e57725d756 data\swatch\loot_table\blocks\rotten_egg_block.json
+fa05919bf5e6d31bc53703870653996a3c11ada3 data\swatch\loot_table\blocks\honey_crystal_block.json
+94878e32d8ae65c45ed3d27c7a5656a29a7df892 data\swatch\loot_table\blocks\kelp_stairs.json
+a33896f1ce2e4dcf47f0b9b5535839d6fa2c2e46 data\swatch\loot_table\blocks\egg_slab.json
+0b2bc6f5de39e976de7eb3a5fbb3e7856e26cf63 data\swatch\loot_table\blocks\kelp_slab.json
+35aa46531837c1bf02fdc87cc321d23827a13f46 data\swatch\loot_table\blocks\kelp_block.json
+2a9a54eec4ae90c052d33578aec044caab3f7dbf data\swatch\loot_table\blocks\honey_crystal_stairs.json
+4a4b194eb1c414c15043c6c44d779a8b5ed1080c data\swatch\loot_table\blocks\rotten_egg_stairs.json
+08eeb16584c0ec443a4c8cc1b68a67a8c6901b3c data\swatch\loot_table\blocks\honey_crystal_slab.json
 4da5408d14b2461b546efb5888cc6fd40f9e557a data\swatch\loot_table\blocks\egg_stairs.json
 f459d5fce3b5607770422b59f1fc29444519a7e6 data\swatch\loot_table\blocks\embalm.json
-a33896f1ce2e4dcf47f0b9b5535839d6fa2c2e46 data\swatch\loot_table\blocks\egg_slab.json
