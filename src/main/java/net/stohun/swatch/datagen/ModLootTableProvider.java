@@ -27,6 +27,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.KELP_BLOCK);
         addDrop(ModBlocks.KELP_STAIRS);
         addDrop(ModBlocks.KELP_SLAB, slabDrops(ModBlocks.KELP_SLAB));
+        addDrop(ModBlocks.CRACKED_MUD);
+        addDrop(ModBlocks.CRACKED_MUD_STAIRS);
+        addDrop(ModBlocks.CRACKED_MUD_SLAB, slabDrops(ModBlocks.CRACKED_MUD_SLAB));
 
     }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:cracked_mud"
+    }
+  },
+  "result": {
+    "id": "swatch:cracked_mud_stairs",
+    "count": 4
+  }
+}

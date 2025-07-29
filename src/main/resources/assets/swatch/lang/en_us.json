@@ -17,5 +17,9 @@
   "block.swatch.kelp_stairs": "Kelp Stairs",
   "block.swatch.kelp_slab": "Kelp Slab",
 
+  "block.swatch.cracked_mud": "Cracked Mud",
+  "block.swatch.cracked_mud_stairs": "Cracked Mud Stairs",
+  "block.swatch.cracked_mud_slab": "Cracked Mud Slab",
+
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

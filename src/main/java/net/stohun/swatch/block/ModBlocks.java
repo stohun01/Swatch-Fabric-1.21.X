@@ -60,6 +60,19 @@ public class ModBlocks {
     public static final Block KELP_SLAB = registerBlock("kelp_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES)));
 
+    public static final Block CRACKED_MUD = registerBlock("cracked_mud",
+            new Block(AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CRACKED_MUD_STAIRS = registerBlock("cracked_mud_stairs",
+            new StairsBlock(ModBlocks.KELP_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
+                            .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CRACKED_MUD_SLAB = registerBlock("cracked_mud_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
     public static final Block EMBALM = registerBlock("embalm",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
@@ -90,6 +103,9 @@ public class ModBlocks {
             entries.add(ModBlocks.KELP_BLOCK);
             entries.add(ModBlocks.KELP_STAIRS);
             entries.add(ModBlocks.KELP_SLAB);
+            entries.add(ModBlocks.CRACKED_MUD);
+            entries.add(ModBlocks.CRACKED_MUD_STAIRS);
+            entries.add(ModBlocks.CRACKED_MUD_SLAB);
             entries.add(ModBlocks.EMBALM);
         });
     }

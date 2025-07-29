@@ -29,6 +29,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.KELP_BLOCK);
                         entries.add(ModBlocks.KELP_STAIRS);
                         entries.add(ModBlocks.KELP_SLAB);
+                        entries.add(ModBlocks.CRACKED_MUD);
+                        entries.add(ModBlocks.CRACKED_MUD_STAIRS);
+                        entries.add(ModBlocks.CRACKED_MUD_SLAB);
                         entries.add(ModBlocks.EMBALM);
 
                     }).build());

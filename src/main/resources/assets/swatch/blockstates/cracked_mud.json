@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "swatch:block/cracked_mud_0"
+      },
+      {
+        "model": "swatch:block/cracked_mud_1"
+      },
+      {
+        "model": "swatch:block/cracked_mud_2"
+      },
+      {
+        "model": "swatch:block/cracked_mud_3"
+      }
+    ]
+  }
+}
