@@ -2,20 +2,24 @@
   "block.swatch.egg_block": "Egg Block",
   "block.swatch.egg_stairs": "Egg Stairs",
   "block.swatch.egg_slab": "Egg Slab",
+  "block.swatch.egg_wall": "Egg Wall",
 
   "block.swatch.rotten_egg_block": "Rotten Egg Block",
   "block.swatch.rotten_egg_stairs": "Rotten Egg Stairs",
   "block.swatch.rotten_egg_slab": "Rotten Egg Slab",
+  "block.swatch.rotten_egg_wall": "Rotten Egg Wall",
 
   "block.swatch.embalm": "Embalm",
 
   "block.swatch.honey_crystal_block": "Honey Crystal Block",
   "block.swatch.honey_crystal_stairs": "Honey Crystal Stairs",
   "block.swatch.honey_crystal_slab": "Honey Crystal Slab",
+  "block.swatch.honey_crystal_wall": "Honey Crystal Wall",
 
   "block.swatch.kelp_block": "Kelp Block",
   "block.swatch.kelp_stairs": "Kelp Stairs",
   "block.swatch.kelp_slab": "Kelp Slab",
+  "block.swatch.kelp_wall": "Kelp Wall",
 
   "block.swatch.cracked_mud": "Cracked Mud",
   "block.swatch.cracked_mud_stairs": "Cracked Mud Stairs",
@@ -25,6 +29,8 @@
   "block.swatch.lithosite_bricks": "Lithosite Bricks",
   "block.swatch.lithosite_tiles": "Lithosite Tiles",
   "block.swatch.polished_lithosite": "Polished Lithosite",
+
+  "block.swatch.warped_bloom": "Warped Bloom",
 
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

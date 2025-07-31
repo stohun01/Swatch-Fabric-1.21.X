@@ -1,10 +1,7 @@
 package net.stohun.swatch.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -27,6 +24,9 @@ public class ModBlocks {
     public static final Block EGG_SLAB = registerBlock("egg_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
+    public static final Block EGG_WALL = registerBlock("egg_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
     public static final Block ROTTEN_EGG_BLOCK = registerBlock("rotten_egg_block",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
@@ -37,6 +37,9 @@ public class ModBlocks {
 
     public static final Block ROTTEN_EGG_SLAB = registerBlock("rotten_egg_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block ROTTEN_EGG_WALL = registerBlock("rotten_egg_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
     public static final Block HONEY_CRYSTAL_BLOCK = registerBlock("honey_crystal_block",
             new Block(AbstractBlock.Settings.create().strength(1f)
@@ -49,6 +52,9 @@ public class ModBlocks {
     public static final Block HONEY_CRYSTAL_SLAB = registerBlock("honey_crystal_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
+    public static final Block HONEY_CRYSTAL_WALL = registerBlock("honey_crystal_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
     public static final Block KELP_BLOCK = registerBlock("kelp_block",
             new Block(AbstractBlock.Settings.create().strength(0.5f)
                     .sounds(BlockSoundGroup.AZALEA_LEAVES)));
@@ -59,6 +65,9 @@ public class ModBlocks {
 
     public static final Block KELP_SLAB = registerBlock("kelp_slab",
             new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES)));
+
+    public static final Block KELP_WALL = registerBlock("kelp_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.AZALEA_LEAVES)));
 
     public static final Block CRACKED_MUD = registerBlock("cracked_mud",
             new Block(AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
@@ -93,6 +102,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.25F)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block WARPED_BLOOM = registerBlock("warped_bloom",
+            new Block(AbstractBlock.Settings.create().strength(1F).sounds(BlockSoundGroup.WART_BLOCK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Swatch.MOD_ID, name), block);
@@ -110,15 +122,19 @@ public class ModBlocks {
             entries.add(ModBlocks.EGG_BLOCK);
             entries.add(ModBlocks.EGG_STAIRS);
             entries.add(ModBlocks.EGG_SLAB);
+            entries.add(ModBlocks.EGG_WALL);
             entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
             entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
             entries.add(ModBlocks.ROTTEN_EGG_SLAB);
+            entries.add(ModBlocks.ROTTEN_EGG_WALL);
             entries.add(ModBlocks.HONEY_CRYSTAL_BLOCK);
             entries.add(ModBlocks.HONEY_CRYSTAL_STAIRS);
             entries.add(ModBlocks.HONEY_CRYSTAL_SLAB);
+            entries.add(ModBlocks.HONEY_CRYSTAL_WALL);
             entries.add(ModBlocks.KELP_BLOCK);
             entries.add(ModBlocks.KELP_STAIRS);
             entries.add(ModBlocks.KELP_SLAB);
+            entries.add(ModBlocks.KELP_WALL);
             entries.add(ModBlocks.CRACKED_MUD);
             entries.add(ModBlocks.CRACKED_MUD_STAIRS);
             entries.add(ModBlocks.CRACKED_MUD_SLAB);
@@ -127,6 +143,7 @@ public class ModBlocks {
             entries.add(ModBlocks.LITHOSITE_BRICKS);
             entries.add(ModBlocks.LITHOSITE_TILES);
             entries.add(ModBlocks.POLISHED_LITHOSITE);
+            entries.add(ModBlocks.WARPED_BLOOM);
         });
     }
 }

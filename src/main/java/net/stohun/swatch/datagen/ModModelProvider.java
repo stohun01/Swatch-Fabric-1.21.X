@@ -21,18 +21,23 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool lithositeBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LITHOSITE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool lithositeTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LITHOSITE_TILES);
         BlockStateModelGenerator.BlockTexturePool polishedLithositePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_LITHOSITE);
+        BlockStateModelGenerator.BlockTexturePool warpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WARPED_BLOOM);
 
         eggPool.stairs(ModBlocks.EGG_STAIRS);
         eggPool.slab(ModBlocks.EGG_SLAB);
+        eggPool.wall(ModBlocks.EGG_WALL);
 
         rottenEggPool.stairs(ModBlocks.ROTTEN_EGG_STAIRS);
         rottenEggPool.slab(ModBlocks.ROTTEN_EGG_SLAB);
+        rottenEggPool.wall(ModBlocks.ROTTEN_EGG_WALL);
 
         honeyCrystalPool.stairs(ModBlocks.HONEY_CRYSTAL_STAIRS);
         honeyCrystalPool.slab(ModBlocks.HONEY_CRYSTAL_SLAB);
+        honeyCrystalPool.wall(ModBlocks.HONEY_CRYSTAL_WALL);
 
         kelpPool.stairs(ModBlocks.KELP_STAIRS);
         kelpPool.slab(ModBlocks.KELP_SLAB);
+        kelpPool.wall(ModBlocks.KELP_WALL);
 
     }
 

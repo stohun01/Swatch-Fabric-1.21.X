@@ -20,15 +20,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EGG_BLOCK);
                         entries.add(ModBlocks.EGG_STAIRS);
                         entries.add(ModBlocks.EGG_SLAB);
+                        entries.add(ModBlocks.EGG_WALL);
                         entries.add(ModBlocks.ROTTEN_EGG_BLOCK);
                         entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
                         entries.add(ModBlocks.ROTTEN_EGG_SLAB);
+                        entries.add(ModBlocks.ROTTEN_EGG_WALL);
                         entries.add(ModBlocks.HONEY_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.HONEY_CRYSTAL_STAIRS);
                         entries.add(ModBlocks.HONEY_CRYSTAL_SLAB);
+                        entries.add(ModBlocks.HONEY_CRYSTAL_WALL);
                         entries.add(ModBlocks.KELP_BLOCK);
                         entries.add(ModBlocks.KELP_STAIRS);
                         entries.add(ModBlocks.KELP_SLAB);
+                        entries.add(ModBlocks.KELP_WALL);
                         entries.add(ModBlocks.CRACKED_MUD);
                         entries.add(ModBlocks.CRACKED_MUD_STAIRS);
                         entries.add(ModBlocks.CRACKED_MUD_SLAB);
@@ -37,6 +41,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LITHOSITE_BRICKS);
                         entries.add(ModBlocks.LITHOSITE_TILES);
                         entries.add(ModBlocks.POLISHED_LITHOSITE);
+                        entries.add(ModBlocks.WARPED_BLOOM);
 
                     }).build());
 

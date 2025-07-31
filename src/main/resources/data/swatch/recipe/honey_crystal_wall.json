@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:honey_crystal_block"
+    }
+  },
+  "result": {
+    "id": "swatch:honey_crystal_wall",
+    "count": 6
+  }
+}
