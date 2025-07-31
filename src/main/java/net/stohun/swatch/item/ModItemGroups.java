@@ -33,6 +33,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_MUD_STAIRS);
                         entries.add(ModBlocks.CRACKED_MUD_SLAB);
                         entries.add(ModBlocks.EMBALM);
+                        entries.add(ModBlocks.LITHOSITE);
+                        entries.add(ModBlocks.LITHOSITE_BRICKS);
+                        entries.add(ModBlocks.LITHOSITE_TILES);
+                        entries.add(ModBlocks.POLISHED_LITHOSITE);
 
                     }).build());
 

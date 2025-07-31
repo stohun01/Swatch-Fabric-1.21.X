@@ -21,5 +21,10 @@
   "block.swatch.cracked_mud_stairs": "Cracked Mud Stairs",
   "block.swatch.cracked_mud_slab": "Cracked Mud Slab",
 
+  "block.swatch.lithosite": "Lithosite",
+  "block.swatch.lithosite_bricks": "Lithosite Bricks",
+  "block.swatch.lithosite_tiles": "Lithosite Tiles",
+  "block.swatch.polished_lithosite": "Polished Lithosite",
+
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

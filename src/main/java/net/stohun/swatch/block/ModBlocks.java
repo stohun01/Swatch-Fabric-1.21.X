@@ -77,6 +77,22 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
 
+    public static final Block LITHOSITE = registerBlock("lithosite",
+            new Block(AbstractBlock.Settings.create().strength(1.25F)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_BRICKS = registerBlock("lithosite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1.25F)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_TILES = registerBlock("lithosite_tiles",
+            new Block(AbstractBlock.Settings.create().strength(1.25F)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_LITHOSITE = registerBlock("polished_lithosite",
+            new Block(AbstractBlock.Settings.create().strength(1.25F)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Swatch.MOD_ID, name), block);
@@ -107,6 +123,10 @@ public class ModBlocks {
             entries.add(ModBlocks.CRACKED_MUD_STAIRS);
             entries.add(ModBlocks.CRACKED_MUD_SLAB);
             entries.add(ModBlocks.EMBALM);
+            entries.add(ModBlocks.LITHOSITE);
+            entries.add(ModBlocks.LITHOSITE_BRICKS);
+            entries.add(ModBlocks.LITHOSITE_TILES);
+            entries.add(ModBlocks.POLISHED_LITHOSITE);
         });
     }
 }

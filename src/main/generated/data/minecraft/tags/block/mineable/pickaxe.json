@@ -12,6 +12,10 @@
     "swatch:cracked_mud",
     "swatch:cracked_mud_stairs",
     "swatch:cracked_mud_slab",
-    "swatch:embalm"
+    "swatch:embalm",
+    "swatch:lithosite",
+    "swatch:lithosite_bricks",
+    "swatch:lithosite_tiles",
+    "swatch:polished_lithosite"
   ]
 }

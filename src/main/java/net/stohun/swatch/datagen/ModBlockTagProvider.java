@@ -28,7 +28,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_MUD)
                 .add(ModBlocks.CRACKED_MUD_STAIRS)
                 .add(ModBlocks.CRACKED_MUD_SLAB)
-                .add(ModBlocks.EMBALM);
+                .add(ModBlocks.EMBALM)
+                .add(ModBlocks.LITHOSITE)
+                .add(ModBlocks.LITHOSITE_BRICKS)
+                .add(ModBlocks.LITHOSITE_TILES)
+                .add(ModBlocks.POLISHED_LITHOSITE);
 
     }
 }
