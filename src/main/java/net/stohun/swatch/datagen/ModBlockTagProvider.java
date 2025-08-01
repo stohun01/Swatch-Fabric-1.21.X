@@ -31,11 +31,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRACKED_MUD)
                 .add(ModBlocks.CRACKED_MUD_STAIRS)
                 .add(ModBlocks.CRACKED_MUD_SLAB)
+                .add(ModBlocks.CRACKED_MUD_WALL)
                 .add(ModBlocks.EMBALM)
+                .add(ModBlocks.EMBALM_STAIRS)
+                .add(ModBlocks.EMBALM_SLAB)
+                .add(ModBlocks.EMBALM_WALL)
                 .add(ModBlocks.LITHOSITE)
+                .add(ModBlocks.LITHOSITE_STAIRS)
+                .add(ModBlocks.LITHOSITE_SLAB)
+                .add(ModBlocks.LITHOSITE_WALL)
                 .add(ModBlocks.LITHOSITE_BRICKS)
+                .add(ModBlocks.LITHOSITE_BRICKS_STAIRS)
+                .add(ModBlocks.LITHOSITE_BRICKS_SLAB)
+                .add(ModBlocks.LITHOSITE_BRICKS_WALL)
                 .add(ModBlocks.LITHOSITE_TILES)
-                .add(ModBlocks.POLISHED_LITHOSITE);
+                .add(ModBlocks.LITHOSITE_TILES_STAIRS)
+                .add(ModBlocks.LITHOSITE_TILES_SLAB)
+                .add(ModBlocks.LITHOSITE_TILES_WALL)
+                .add(ModBlocks.POLISHED_LITHOSITE)
+                .add(ModBlocks.POLISHED_LITHOSITE_STAIRS)
+                .add(ModBlocks.POLISHED_LITHOSITE_SLAB)
+                .add(ModBlocks.POLISHED_LITHOSITE_WALL);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.WARPED_BLOOM);
@@ -44,5 +60,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.ROTTEN_EGG_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.HONEY_CRYSTAL_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.KELP_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CRACKED_MUD_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.EMBALM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_BRICKS_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_TILES_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_LITHOSITE_WALL);
     }
 }

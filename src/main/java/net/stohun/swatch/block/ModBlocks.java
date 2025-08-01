@@ -70,40 +70,109 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.AZALEA_LEAVES)));
 
     public static final Block CRACKED_MUD = registerBlock("cracked_mud",
-            new Block(AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
+            new Block(AbstractBlock.Settings.create().strength(1.25f, 4.2f).requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
     public static final Block CRACKED_MUD_STAIRS = registerBlock("cracked_mud_stairs",
             new StairsBlock(ModBlocks.KELP_BLOCK.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
+                    AbstractBlock.Settings.create().strength(1.25f, 4.2f).requiresTool()
                             .sounds(BlockSoundGroup.STONE)));
 
     public static final Block CRACKED_MUD_SLAB = registerBlock("cracked_mud_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(1.25F, 4.2F).requiresTool()
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f, 4.2f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CRACKED_MUD_WALL = registerBlock("cracked_mud_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f, 4.2f).requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
     public static final Block EMBALM = registerBlock("embalm",
             new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
 
+    public static final Block EMBALM_STAIRS = registerBlock("embalm_stairs",
+            new StairsBlock(ModBlocks.EMBALM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool()
+                            .sounds(BlockSoundGroup.SHROOMLIGHT)));
+
+    public static final Block EMBALM_SLAB = registerBlock("embalm_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()
+                    .sounds(BlockSoundGroup.SHROOMLIGHT)));
+
+    public static final Block EMBALM_WALL = registerBlock("embalm_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()
+                    .sounds(BlockSoundGroup.SHROOMLIGHT)));
+
     public static final Block LITHOSITE = registerBlock("lithosite",
-            new Block(AbstractBlock.Settings.create().strength(1.25F)
+            new Block(AbstractBlock.Settings.create().strength(1.25f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_STAIRS = registerBlock("lithosite_stairs",
+            new StairsBlock(ModBlocks.LITHOSITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                            .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_SLAB = registerBlock("lithosite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_WALL = registerBlock("lithosite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
 
     public static final Block LITHOSITE_BRICKS = registerBlock("lithosite_bricks",
-            new Block(AbstractBlock.Settings.create().strength(1.25F)
+            new Block(AbstractBlock.Settings.create().strength(1.25f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_BRICKS_STAIRS = registerBlock("lithosite_bricks_stairs",
+            new StairsBlock(ModBlocks.LITHOSITE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                            .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_BRICKS_SLAB = registerBlock("lithosite_bricks_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_BRICKS_WALL = registerBlock("lithosite_bricks_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
 
     public static final Block LITHOSITE_TILES = registerBlock("lithosite_tiles",
-            new Block(AbstractBlock.Settings.create().strength(1.25F)
+            new Block(AbstractBlock.Settings.create().strength(1.25f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_TILES_STAIRS = registerBlock("lithosite_tiles_stairs",
+            new StairsBlock(ModBlocks.LITHOSITE_TILES.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                            .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_TILES_SLAB = registerBlock("lithosite_tiles_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block LITHOSITE_TILES_WALL = registerBlock("lithosite_tiles_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
 
     public static final Block POLISHED_LITHOSITE = registerBlock("polished_lithosite",
-            new Block(AbstractBlock.Settings.create().strength(1.25F)
+            new Block(AbstractBlock.Settings.create().strength(1.25f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block POLISHED_LITHOSITE_STAIRS = registerBlock("polished_lithosite_stairs",
+            new StairsBlock(ModBlocks.POLISHED_LITHOSITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                            .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_LITHOSITE_SLAB = registerBlock("polished_lithosite_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_LITHOSITE_WALL = registerBlock("polished_lithosite_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE)));
+
     public static final Block WARPED_BLOOM = registerBlock("warped_bloom",
-            new Block(AbstractBlock.Settings.create().strength(1F).sounds(BlockSoundGroup.WART_BLOCK)));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WART_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -138,11 +207,27 @@ public class ModBlocks {
             entries.add(ModBlocks.CRACKED_MUD);
             entries.add(ModBlocks.CRACKED_MUD_STAIRS);
             entries.add(ModBlocks.CRACKED_MUD_SLAB);
+            entries.add(ModBlocks.CRACKED_MUD_WALL);
             entries.add(ModBlocks.EMBALM);
+            entries.add(ModBlocks.EMBALM_STAIRS);
+            entries.add(ModBlocks.EMBALM_SLAB);
+            entries.add(ModBlocks.EMBALM_WALL);
             entries.add(ModBlocks.LITHOSITE);
+            entries.add(ModBlocks.LITHOSITE_STAIRS);
+            entries.add(ModBlocks.LITHOSITE_SLAB);
+            entries.add(ModBlocks.LITHOSITE_WALL);
             entries.add(ModBlocks.LITHOSITE_BRICKS);
+            entries.add(ModBlocks.LITHOSITE_BRICKS_STAIRS);
+            entries.add(ModBlocks.LITHOSITE_BRICKS_SLAB);
+            entries.add(ModBlocks.LITHOSITE_BRICKS_WALL);
             entries.add(ModBlocks.LITHOSITE_TILES);
+            entries.add(ModBlocks.LITHOSITE_TILES_STAIRS);
+            entries.add(ModBlocks.LITHOSITE_TILES_SLAB);
+            entries.add(ModBlocks.LITHOSITE_TILES_WALL);
             entries.add(ModBlocks.POLISHED_LITHOSITE);
+            entries.add(ModBlocks.POLISHED_LITHOSITE_STAIRS);
+            entries.add(ModBlocks.POLISHED_LITHOSITE_SLAB);
+            entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
             entries.add(ModBlocks.WARPED_BLOOM);
         });
     }

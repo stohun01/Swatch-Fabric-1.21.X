@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "type=bottom": [
+      {
+        "model": "swatch:block/lithosite_tiles_slab_0"
+      },
+      {
+        "model": "swatch:block/lithosite_tiles_slab_1"
+      }
+    ],
+    "type=double": [
+      {
+        "model": "swatch:block/lithosite_tiles_0"
+      },
+      {
+        "model": "swatch:block/lithosite_tiles_1"
+      }
+    ],
+    "type=top": [
+      {
+        "model": "swatch:block/lithosite_tiles_slab_top_0"
+      },
+      {
+        "model": "swatch:block/lithosite_tiles_slab_top_1"
+      }
+    ]
+  }
+}

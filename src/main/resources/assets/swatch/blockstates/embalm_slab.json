@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/embalm_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/embalm"
+    },
+    "type=top": {
+      "model": "swatch:block/embalm_slab_top"
+    }
+  }
+}

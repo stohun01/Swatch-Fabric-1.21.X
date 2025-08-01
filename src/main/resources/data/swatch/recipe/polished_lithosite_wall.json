@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:polished_lithosite"
+    }
+  },
+  "result": {
+    "id": "swatch:polished_lithosite_wall",
+    "count": 6
+  }
+}

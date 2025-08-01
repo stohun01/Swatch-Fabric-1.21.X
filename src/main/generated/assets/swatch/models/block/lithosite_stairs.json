@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "swatch:block/lithosite",
+    "side": "swatch:block/lithosite",
+    "top": "swatch:block/lithosite"
+  }
+}

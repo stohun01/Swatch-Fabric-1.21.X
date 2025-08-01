@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:lithosite"
+    }
+  },
+  "result": {
+    "id": "swatch:lithosite_stairs",
+    "count": 4
+  }
+}

@@ -3,6 +3,12 @@
     "swatch:egg_wall",
     "swatch:rotten_egg_wall",
     "swatch:honey_crystal_wall",
-    "swatch:kelp_wall"
+    "swatch:kelp_wall",
+    "swatch:cracked_mud_wall",
+    "swatch:embalm_wall",
+    "swatch:lithosite_wall",
+    "swatch:lithosite_bricks_wall",
+    "swatch:lithosite_tiles_wall",
+    "swatch:polished_lithosite_wall"
   ]
 }

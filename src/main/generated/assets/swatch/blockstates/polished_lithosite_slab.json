@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/polished_lithosite_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/polished_lithosite"
+    },
+    "type=top": {
+      "model": "swatch:block/polished_lithosite_slab_top"
+    }
+  }
+}

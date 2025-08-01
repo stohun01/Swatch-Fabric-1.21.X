@@ -1,0 +1,149 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_post_0"
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_post_1"
+        }
+      ],
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_0",
+          "uvlock": true
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_1",
+          "uvlock": true
+        }
+      ],
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_0",
+          "uvlock": true,
+          "y": 90
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_1",
+          "uvlock": true,
+          "y": 90
+        }
+      ],
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_0",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_1",
+          "uvlock": true,
+          "y": 180
+        }
+      ],
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_0",
+          "uvlock": true,
+          "y": 270
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_1",
+          "uvlock": true,
+          "y": 270
+        }
+      ],
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_0",
+          "uvlock": true
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_1",
+          "uvlock": true
+        }
+      ],
+      "when": {
+        "north": "tall"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_0",
+          "uvlock": true,
+          "y": 90
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_1",
+          "uvlock": true,
+          "y": 90
+        }
+      ],
+      "when": {
+        "east": "tall"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_0",
+          "uvlock": true,
+          "y": 180
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_1",
+          "uvlock": true,
+          "y": 180
+        }
+      ],
+      "when": {
+        "south": "tall"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_0",
+          "uvlock": true,
+          "y": 270
+        },
+        {
+          "model": "swatch:block/lithosite_tiles_wall_side_tall_1",
+          "uvlock": true,
+          "y": 270
+        }
+      ],
+      "when": {
+        "west": "tall"
+      }
+    }
+  ]
+}

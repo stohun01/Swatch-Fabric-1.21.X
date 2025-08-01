@@ -19,7 +19,6 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool kelpPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.KELP_BLOCK);
         BlockStateModelGenerator.BlockTexturePool lithositePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LITHOSITE);
         BlockStateModelGenerator.BlockTexturePool lithositeBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LITHOSITE_BRICKS);
-        BlockStateModelGenerator.BlockTexturePool lithositeTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LITHOSITE_TILES);
         BlockStateModelGenerator.BlockTexturePool polishedLithositePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_LITHOSITE);
         BlockStateModelGenerator.BlockTexturePool warpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WARPED_BLOOM);
 
@@ -38,6 +37,18 @@ public class ModModelProvider extends FabricModelProvider {
         kelpPool.stairs(ModBlocks.KELP_STAIRS);
         kelpPool.slab(ModBlocks.KELP_SLAB);
         kelpPool.wall(ModBlocks.KELP_WALL);
+
+        lithositePool.stairs(ModBlocks.LITHOSITE_STAIRS);
+        lithositePool.slab(ModBlocks.LITHOSITE_SLAB);
+        lithositePool.wall(ModBlocks.LITHOSITE_WALL);
+
+        lithositeBricksPool.stairs(ModBlocks.LITHOSITE_BRICKS_STAIRS);
+        lithositeBricksPool.slab(ModBlocks.LITHOSITE_BRICKS_SLAB);
+        lithositeBricksPool.wall(ModBlocks.LITHOSITE_BRICKS_WALL);
+
+        polishedLithositePool.stairs(ModBlocks.POLISHED_LITHOSITE_STAIRS);
+        polishedLithositePool.slab(ModBlocks.POLISHED_LITHOSITE_SLAB);
+        polishedLithositePool.wall(ModBlocks.POLISHED_LITHOSITE_WALL);
 
     }
 

@@ -10,6 +10,9 @@
   "block.swatch.rotten_egg_wall": "Rotten Egg Wall",
 
   "block.swatch.embalm": "Embalm",
+  "block.swatch.embalm_stairs": "Embalm Stairs",
+  "block.swatch.embalm_slab": "Embalm Slab",
+  "block.swatch.embalm_wall": "Embalm Wall",
 
   "block.swatch.honey_crystal_block": "Honey Crystal Block",
   "block.swatch.honey_crystal_stairs": "Honey Crystal Stairs",
@@ -24,11 +27,27 @@
   "block.swatch.cracked_mud": "Cracked Mud",
   "block.swatch.cracked_mud_stairs": "Cracked Mud Stairs",
   "block.swatch.cracked_mud_slab": "Cracked Mud Slab",
+  "block.swatch.cracked_mud_wall": "Cracked Mud Wall",
 
   "block.swatch.lithosite": "Lithosite",
+  "block.swatch.lithosite_stairs": "Lithosite Stairs",
+  "block.swatch.lithosite_slab": "Lithosite Slab",
+  "block.swatch.lithosite_wall": "Lithosite Wall",
+
   "block.swatch.lithosite_bricks": "Lithosite Bricks",
+  "block.swatch.lithosite_bricks_stairs": "Lithosite Bricks Stairs",
+  "block.swatch.lithosite_bricks_slab": "Lithosite Bricks Slab",
+  "block.swatch.lithosite_bricks_wall": "Lithosite Bricks Wall",
+
   "block.swatch.lithosite_tiles": "Lithosite Tiles",
+  "block.swatch.lithosite_tiles_stairs": "Lithosite Tiles Stairs",
+  "block.swatch.lithosite_tiles_slab": "Lithosite Tiles Slab",
+  "block.swatch.lithosite_tiles_wall": "Lithosite Tiles Wall",
+
   "block.swatch.polished_lithosite": "Polished Lithosite",
+  "block.swatch.polished_lithosite_stairs": "Polished Lithosite Stairs",
+  "block.swatch.polished_lithosite_slab": "Polished Lithosite Slab",
+  "block.swatch.polished_lithosite_wall": "Polished Lithosite Wall",
 
   "block.swatch.warped_bloom": "Warped Bloom",
 

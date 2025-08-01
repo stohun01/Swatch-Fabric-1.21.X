@@ -36,11 +36,27 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACKED_MUD);
                         entries.add(ModBlocks.CRACKED_MUD_STAIRS);
                         entries.add(ModBlocks.CRACKED_MUD_SLAB);
+                        entries.add(ModBlocks.CRACKED_MUD_WALL);
                         entries.add(ModBlocks.EMBALM);
+                        entries.add(ModBlocks.EMBALM_STAIRS);
+                        entries.add(ModBlocks.EMBALM_SLAB);
+                        entries.add(ModBlocks.EMBALM_WALL);
                         entries.add(ModBlocks.LITHOSITE);
+                        entries.add(ModBlocks.LITHOSITE_STAIRS);
+                        entries.add(ModBlocks.LITHOSITE_SLAB);
+                        entries.add(ModBlocks.LITHOSITE_WALL);
                         entries.add(ModBlocks.LITHOSITE_BRICKS);
+                        entries.add(ModBlocks.LITHOSITE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.LITHOSITE_BRICKS_SLAB);
+                        entries.add(ModBlocks.LITHOSITE_BRICKS_WALL);
                         entries.add(ModBlocks.LITHOSITE_TILES);
+                        entries.add(ModBlocks.LITHOSITE_TILES_STAIRS);
+                        entries.add(ModBlocks.LITHOSITE_TILES_SLAB);
+                        entries.add(ModBlocks.LITHOSITE_TILES_WALL);
                         entries.add(ModBlocks.POLISHED_LITHOSITE);
+                        entries.add(ModBlocks.POLISHED_LITHOSITE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_LITHOSITE_SLAB);
+                        entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
                         entries.add(ModBlocks.WARPED_BLOOM);
 
                     }).build());

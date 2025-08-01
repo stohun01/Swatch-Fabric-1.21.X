@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "swatch:block/embalm_0",
+    "side": "swatch:block/embalm_0",
+    "top": "swatch:block/embalm_0"
+  }
+}

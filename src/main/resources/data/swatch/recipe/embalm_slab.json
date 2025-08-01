@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:embalm"
+    }
+  },
+  "result": {
+    "id": "swatch:embalm_slab",
+    "count": 6
+  }
+}

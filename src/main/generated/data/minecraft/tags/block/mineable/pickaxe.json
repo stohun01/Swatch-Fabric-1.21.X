@@ -15,10 +15,26 @@
     "swatch:cracked_mud",
     "swatch:cracked_mud_stairs",
     "swatch:cracked_mud_slab",
+    "swatch:cracked_mud_wall",
     "swatch:embalm",
+    "swatch:embalm_stairs",
+    "swatch:embalm_slab",
+    "swatch:embalm_wall",
     "swatch:lithosite",
+    "swatch:lithosite_stairs",
+    "swatch:lithosite_slab",
+    "swatch:lithosite_wall",
     "swatch:lithosite_bricks",
+    "swatch:lithosite_bricks_stairs",
+    "swatch:lithosite_bricks_slab",
+    "swatch:lithosite_bricks_wall",
     "swatch:lithosite_tiles",
-    "swatch:polished_lithosite"
+    "swatch:lithosite_tiles_stairs",
+    "swatch:lithosite_tiles_slab",
+    "swatch:lithosite_tiles_wall",
+    "swatch:polished_lithosite",
+    "swatch:polished_lithosite_stairs",
+    "swatch:polished_lithosite_slab",
+    "swatch:polished_lithosite_wall"
   ]
 }
