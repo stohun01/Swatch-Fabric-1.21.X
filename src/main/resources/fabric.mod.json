@@ -3,7 +3,7 @@
 	"id": "swatch",
 	"version": "${version}",
 	"name": "Swatch",
-	"description": "New coloured and textured blocks",
+	"description": "Extra building blocks",
 	"authors": [
 		"Stohun"
 	],
