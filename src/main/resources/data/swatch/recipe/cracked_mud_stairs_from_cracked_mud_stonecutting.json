@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:cracked_mud"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:cracked_mud_stairs"
+  }
+}

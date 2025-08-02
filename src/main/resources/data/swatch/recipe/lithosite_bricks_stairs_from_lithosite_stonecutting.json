@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:lithosite"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:lithosite_bricks_stairs"
+  }
+}

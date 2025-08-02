@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#T#",
+    "#G#",
     "###"
   ],
   "key": {
     "#": {
       "item": "minecraft:warped_wart_block"
     },
-    "T": {
-      "tag": "c:foods/raw_meat"
+    "G": {
+      "item": "minecraft:glow_ink_sac"
     }
   },
   "result": {
-    "id": "swatch:warped_bloom",
+    "id": "swatch:glowing_warped_bloom",
     "count": 8
   }
 }

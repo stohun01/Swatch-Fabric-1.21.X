@@ -9,6 +9,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.BlockView;
 import net.stohun.swatch.Swatch;
 
 public class ModBlocks {
@@ -174,6 +176,13 @@ public class ModBlocks {
     public static final Block WARPED_BLOOM = registerBlock("warped_bloom",
             new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WART_BLOCK)));
 
+    public static final Block GLOWING_WARPED_BLOOM = registerBlock("glowing_warped_bloom",
+            new Block(AbstractBlock.Settings.create().emissiveLighting(ModBlocks::always).luminance(value -> 1).strength(1f).sounds(BlockSoundGroup.WART_BLOCK)));
+
+    private static boolean always(BlockState state, BlockView world, BlockPos pos) {
+        return true;
+    }
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Swatch.MOD_ID, name), block);
@@ -229,6 +238,7 @@ public class ModBlocks {
             entries.add(ModBlocks.POLISHED_LITHOSITE_SLAB);
             entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
             entries.add(ModBlocks.WARPED_BLOOM);
+            entries.add(ModBlocks.GLOWING_WARPED_BLOOM);
         });
     }
 }
