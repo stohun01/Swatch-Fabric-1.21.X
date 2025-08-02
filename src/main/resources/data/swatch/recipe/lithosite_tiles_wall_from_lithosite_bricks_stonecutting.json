@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:lithosite_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:lithosite_tiles_wall"
+  }
+}

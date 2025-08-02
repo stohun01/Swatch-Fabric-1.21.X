@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:polished_lithosite"
+  },
+  "result": {
+    "count": 2,
+    "id": "swatch:polished_lithosite_slab"
+  }
+}
