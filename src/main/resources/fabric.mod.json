@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "swatch",
-	"version": "${version}",
+	"version": "1.1.0",
 	"name": "Swatch",
 	"description": "Extra building blocks",
 	"authors": [

@@ -1,4 +1,5 @@
-// 1.21	2025-08-02T18:39:16.0244353	Swatch/Tags for minecraft:block
+// 1.21	2025-08-07T10:09:10.172676	Swatch/Tags for minecraft:block
 19edc9f0054dedb1ffd1904ca3d27c0f804565d3 data\minecraft\tags\block\walls.json
 27678e547641895d047416f7ce8e72227d198bcf data\minecraft\tags\block\mineable\pickaxe.json
 b547889e2663a5c79336f4a1735760badb5194c3 data\minecraft\tags\block\mineable\hoe.json
+cb3deae6b822b07167d0a55c5ad1af1a026405b0 data\minecraft\tags\block\mineable\axe.json

@@ -57,6 +57,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WARPED_BLOOM)
                 .add(ModBlocks.GLOWING_WARPED_BLOOM);
 
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.ROTTEN_PLANKS);
+
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.EGG_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.ROTTEN_EGG_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.HONEY_CRYSTAL_WALL);

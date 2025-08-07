@@ -179,6 +179,9 @@ public class ModBlocks {
     public static final Block GLOWING_WARPED_BLOOM = registerBlock("glowing_warped_bloom",
             new Block(AbstractBlock.Settings.create().emissiveLighting(ModBlocks::always).luminance(value -> 1).strength(1f).sounds(BlockSoundGroup.WART_BLOCK)));
 
+    public static final Block ROTTEN_PLANKS = registerBlock("rotten_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0f, 3.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).nonOpaque().burnable()));
+
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;
     }
@@ -239,6 +242,7 @@ public class ModBlocks {
             entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
             entries.add(ModBlocks.WARPED_BLOOM);
             entries.add(ModBlocks.GLOWING_WARPED_BLOOM);
+            entries.add(ModBlocks.ROTTEN_PLANKS);
         });
     }
 }

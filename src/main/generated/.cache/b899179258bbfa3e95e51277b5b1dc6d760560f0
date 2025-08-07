@@ -1,12 +1,13 @@
-// 1.21	2025-08-02T18:39:16.0264347	Swatch/Block Loot Tables
+// 1.21	2025-08-07T10:09:10.174675	Swatch/Block Loot Tables
 d7a22ff9616201fe53c3e6061737159bb7dd9901 data\swatch\loot_table\blocks\lithosite_tiles_wall.json
 cc498b7546ccba7e6d455522136405281fcc0d4e data\swatch\loot_table\blocks\embalm_wall.json
 fa05919bf5e6d31bc53703870653996a3c11ada3 data\swatch\loot_table\blocks\honey_crystal_block.json
 26133b486d09abc4b8bc54b7f7ab04b4ad120378 data\swatch\loot_table\blocks\rotten_egg_wall.json
 a33896f1ce2e4dcf47f0b9b5535839d6fa2c2e46 data\swatch\loot_table\blocks\egg_slab.json
 4fb59ce932bfd1aaa1602652c0f30110d5c38795 data\swatch\loot_table\blocks\lithosite_bricks_wall.json
-35aa46531837c1bf02fdc87cc321d23827a13f46 data\swatch\loot_table\blocks\kelp_block.json
+401fb5ea7e98f729435c95c9b3cbb05aea2a00f9 data\swatch\loot_table\blocks\rotten_planks.json
 52a3a80e0ea4a10feb48c37b0a5787493a7c3735 data\swatch\loot_table\blocks\glowing_warped_bloom.json
+35aa46531837c1bf02fdc87cc321d23827a13f46 data\swatch\loot_table\blocks\kelp_block.json
 69606ad5dbfb6a25d666f284c636165089c9de19 data\swatch\loot_table\blocks\lithosite_bricks_stairs.json
 28b6d2a84d4f8e4656158390c10a4598afee6f9e data\swatch\loot_table\blocks\lithosite_slab.json
 7699e8fbf54529763af3e675ec3d256dd6124597 data\swatch\loot_table\blocks\lithosite_stairs.json

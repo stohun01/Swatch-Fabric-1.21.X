@@ -1,4 +1,4 @@
-// 1.21	2025-08-02T18:39:16.0204383	Swatch/Model Definitions
+// 1.21	2025-08-07T10:09:10.1676787	Swatch/Model Definitions
 863bc784528e4ba88e6f80944b01034bd331f004 assets\swatch\models\item\honey_crystal_slab.json
 a8905cb8c2faf1b4f05e9858b5252d4294dbe236 assets\swatch\blockstates\egg_block.json
 3abab871c1e0ea90c0a6c292e226071c6e471993 assets\swatch\models\block\kelp_wall_side.json
@@ -44,6 +44,7 @@ f21d57903e2f0d723c071f295eb91191a6d16683 assets\swatch\models\item\lithosite_sla
 0bd0e080b9f2a3ef1dbeebe0149687c5e39e8f4b assets\swatch\models\block\egg_wall_post.json
 3dddcf045298203e8315e715e1cf3fb552a8d1fa assets\swatch\blockstates\lithosite_slab.json
 9de4dbe332c001d5b91e3b2382d585eebeccfdb5 assets\swatch\models\block\rotten_egg_stairs_inner.json
+0e615b4347ff69573bea56dbf91b95040a9fdff6 assets\swatch\models\item\rotten_planks.json
 b02cfbaf3098895e5950783625ea6e7a748f0e52 assets\swatch\blockstates\polished_lithosite_slab.json
 b191c71a4c9d64f59b4f287e7df67926ed727d1e assets\swatch\models\block\lithosite_stairs_outer.json
 79b3c35517ae1b81d296bb53b96765d3b1bc6ea1 assets\swatch\models\item\polished_lithosite_stairs.json
@@ -53,6 +54,7 @@ d907fbc8d2d081f8755ba51b71b903bce46e1ef9 assets\swatch\models\block\honey_crysta
 d2fe34089350d4a597586e1b8055e60a08ff0a5d assets\swatch\models\block\kelp_stairs_outer.json
 36991f7ce1b948fe7c4044d5baf548d07df3010f assets\swatch\models\block\lithosite_wall_post.json
 af8edef6476bc693883cb2561c0677a6bd9964cd assets\swatch\models\block\kelp_wall_side_tall.json
+729b150606271ab6803c45127e8b0c8f1e7e8a5a assets\swatch\models\block\rotten_planks.json
 3612d4e9159faeb7fab514ae84c8f644f90c82e8 assets\swatch\models\block\lithosite_wall_side_tall.json
 ad56096e346c38db71bf5388784f42b582e74fd1 assets\swatch\models\block\lithosite_wall_side.json
 e24bc88ca31e6c5a2376b778e1e0310b197a522f assets\swatch\models\block\polished_lithosite_wall_inventory.json
@@ -106,6 +108,7 @@ e38c4d8fad8ec8fadfded72e28ca6b64b44c8745 assets\swatch\models\block\glowing_warp
 efd579989944bfe4878e7ef46f381bcf97c85429 assets\swatch\blockstates\egg_slab.json
 846b220f43221c7cab00a4ed1a3efb757f93c6bb assets\swatch\models\item\egg_stairs.json
 e646d844ede247adb2a3e654113d1c2b195fbf7d assets\swatch\models\item\honey_crystal_block.json
+79ed980455391f74f4ed70a4f8fdfe7d7aef7a8a assets\swatch\blockstates\rotten_planks.json
 81a940466c303c8369ddd500c46069bd7af38f7e assets\swatch\models\block\egg_slab.json
 60268b2f532dfa2a55d75a7b9030576516c5d18c assets\swatch\models\block\rotten_egg_wall_inventory.json
 ff47387ca63d24a53b0dd4c3386ad4ad25be923e assets\swatch\models\item\rotten_egg_slab.json
