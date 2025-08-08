@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#T#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "T": {
+      "tag": "c:foods/raw_meat"
+    }
+  },
+  "result": {
+    "id": "swatch:nether_bloom",
+    "count": 8
+  }
+}

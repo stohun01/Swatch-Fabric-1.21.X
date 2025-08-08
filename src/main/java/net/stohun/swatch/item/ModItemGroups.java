@@ -59,6 +59,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
                         entries.add(ModBlocks.WARPED_BLOOM);
                         entries.add(ModBlocks.GLOWING_WARPED_BLOOM);
+                        entries.add(ModBlocks.NETHER_BLOOM);
+                        entries.add(ModBlocks.GLOWING_NETHER_BLOOM);
+                        entries.add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
                         entries.add(ModBlocks.ROTTEN_PLANKS);
 
                     }).build());

@@ -56,6 +56,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_LITHOSITE_WALL);
         addDrop(ModBlocks.WARPED_BLOOM);
         addDrop(ModBlocks.GLOWING_WARPED_BLOOM);
+        addDrop(ModBlocks.NETHER_BLOOM);
+        addDrop(ModBlocks.GLOWING_NETHER_BLOOM);
+        addDrop(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
         addDrop(ModBlocks.ROTTEN_PLANKS);
 
     }

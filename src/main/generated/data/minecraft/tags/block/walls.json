@@ -9,6 +9,7 @@
     "swatch:lithosite_wall",
     "swatch:lithosite_bricks_wall",
     "swatch:lithosite_tiles_wall",
-    "swatch:polished_lithosite_wall"
+    "swatch:polished_lithosite_wall",
+    "swatch:glowing_nether_bloom_wall"
   ]
 }

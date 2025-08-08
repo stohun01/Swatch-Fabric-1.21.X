@@ -55,7 +55,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.WARPED_BLOOM)
-                .add(ModBlocks.GLOWING_WARPED_BLOOM);
+                .add(ModBlocks.GLOWING_WARPED_BLOOM)
+                .add(ModBlocks.NETHER_BLOOM)
+                .add(ModBlocks.GLOWING_NETHER_BLOOM)
+                .add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.ROTTEN_PLANKS);
@@ -70,5 +73,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_BRICKS_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_TILES_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_LITHOSITE_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
     }
 }

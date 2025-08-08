@@ -52,6 +52,10 @@
   "block.swatch.warped_bloom": "Warped Bloom",
   "block.swatch.glowing_warped_bloom": "Glowing Warped Bloom",
 
+  "block.swatch.nether_bloom": "Nether Bloom",
+  "block.swatch.glowing_nether_bloom": "Glowing Nether Bloom",
+  "block.swatch.glowing_nether_bloom_wall": "Glowing Nether Bloom Wall",
+
   "block.swatch.rotten_planks": "Rotten Planks",
 
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"

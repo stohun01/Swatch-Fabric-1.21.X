@@ -1,6 +1,9 @@
 {
   "values": [
     "swatch:warped_bloom",
-    "swatch:glowing_warped_bloom"
+    "swatch:glowing_warped_bloom",
+    "swatch:nether_bloom",
+    "swatch:glowing_nether_bloom",
+    "swatch:glowing_nether_bloom_wall"
   ]
 }

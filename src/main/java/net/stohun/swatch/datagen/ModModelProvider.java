@@ -22,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool polishedLithositePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_LITHOSITE);
         BlockStateModelGenerator.BlockTexturePool warpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WARPED_BLOOM);
         //BlockStateModelGenerator.BlockTexturePool glowingWarpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_WARPED_BLOOM);
+        BlockStateModelGenerator.BlockTexturePool netherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.NETHER_BLOOM);
+        BlockStateModelGenerator.BlockTexturePool glowingNetherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_NETHER_BLOOM);
         BlockStateModelGenerator.BlockTexturePool rottenPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ROTTEN_PLANKS);
 
         eggPool.stairs(ModBlocks.EGG_STAIRS);
@@ -51,6 +53,8 @@ public class ModModelProvider extends FabricModelProvider {
         polishedLithositePool.stairs(ModBlocks.POLISHED_LITHOSITE_STAIRS);
         polishedLithositePool.slab(ModBlocks.POLISHED_LITHOSITE_SLAB);
         polishedLithositePool.wall(ModBlocks.POLISHED_LITHOSITE_WALL);
+
+        glowingNetherBloomPool.wall(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
 
     }
 
