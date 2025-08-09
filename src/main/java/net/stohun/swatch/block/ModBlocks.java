@@ -173,6 +173,10 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool()
                     .sounds(BlockSoundGroup.STONE)));
 
+    public static final Block CHISELED_LITHOSITE = registerBlock("chiseled_lithosite",
+            new Block(AbstractBlock.Settings.create().strength(1.25f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
     public static final Block WARPED_BLOOM = registerBlock("warped_bloom",
             new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WART_BLOCK)));
 
@@ -250,6 +254,7 @@ public class ModBlocks {
             entries.add(ModBlocks.POLISHED_LITHOSITE_STAIRS);
             entries.add(ModBlocks.POLISHED_LITHOSITE_SLAB);
             entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
+            entries.add(ModBlocks.CHISELED_LITHOSITE);
             entries.add(ModBlocks.WARPED_BLOOM);
             entries.add(ModBlocks.GLOWING_WARPED_BLOOM);
             entries.add(ModBlocks.NETHER_BLOOM);
