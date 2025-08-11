@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:glowing_warped_bloom"
+    }
+  },
+  "result": {
+    "id": "swatch:glowing_warped_bloom_slab",
+    "count": 6
+  }
+}

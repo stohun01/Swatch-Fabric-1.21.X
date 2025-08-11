@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "swatch:block/warped_bloom",
+    "side": "swatch:block/warped_bloom",
+    "top": "swatch:block/warped_bloom"
+  }
+}

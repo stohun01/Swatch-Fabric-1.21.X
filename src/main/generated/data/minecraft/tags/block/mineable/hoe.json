@@ -1,9 +1,20 @@
 {
   "values": [
     "swatch:warped_bloom",
+    "swatch:warped_bloom_stairs",
+    "swatch:warped_bloom_slab",
+    "swatch:warped_bloom_wall",
     "swatch:glowing_warped_bloom",
+    "swatch:glowing_warped_bloom_stairs",
+    "swatch:glowing_warped_bloom_slab",
+    "swatch:glowing_warped_bloom_wall",
     "swatch:nether_bloom",
+    "swatch:nether_bloom_stairs",
+    "swatch:nether_bloom_slab",
+    "swatch:nether_bloom_wall",
     "swatch:glowing_nether_bloom",
+    "swatch:glowing_nether_bloom_stairs",
+    "swatch:glowing_nether_bloom_slab",
     "swatch:glowing_nether_bloom_wall"
   ]
 }

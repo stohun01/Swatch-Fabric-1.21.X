@@ -52,13 +52,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_LITHOSITE_STAIRS)
                 .add(ModBlocks.POLISHED_LITHOSITE_SLAB)
                 .add(ModBlocks.POLISHED_LITHOSITE_WALL)
-                .add(ModBlocks.CHISELED_LITHOSITE);
+                .add(ModBlocks.CHISELED_LITHOSITE_BRICKS);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.WARPED_BLOOM)
+                .add(ModBlocks.WARPED_BLOOM_STAIRS)
+                .add(ModBlocks.WARPED_BLOOM_SLAB)
+                .add(ModBlocks.WARPED_BLOOM_WALL)
                 .add(ModBlocks.GLOWING_WARPED_BLOOM)
+                .add(ModBlocks.GLOWING_WARPED_BLOOM_STAIRS)
+                .add(ModBlocks.GLOWING_WARPED_BLOOM_SLAB)
+                .add(ModBlocks.GLOWING_WARPED_BLOOM_WALL)
                 .add(ModBlocks.NETHER_BLOOM)
+                .add(ModBlocks.NETHER_BLOOM_STAIRS)
+                .add(ModBlocks.NETHER_BLOOM_SLAB)
+                .add(ModBlocks.NETHER_BLOOM_WALL)
                 .add(ModBlocks.GLOWING_NETHER_BLOOM)
+                .add(ModBlocks.GLOWING_NETHER_BLOOM_STAIRS)
+                .add(ModBlocks.GLOWING_NETHER_BLOOM_SLAB)
                 .add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -74,6 +85,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_BRICKS_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.LITHOSITE_TILES_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_LITHOSITE_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.WARPED_BLOOM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GLOWING_WARPED_BLOOM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.NETHER_BLOOM_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
     }
 }

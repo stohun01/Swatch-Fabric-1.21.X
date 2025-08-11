@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "swatch:block/nether_bloom",
+    "side": "swatch:block/nether_bloom",
+    "top": "swatch:block/nether_bloom"
+  }
+}

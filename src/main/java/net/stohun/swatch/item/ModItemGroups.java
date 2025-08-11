@@ -57,11 +57,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_LITHOSITE_STAIRS);
                         entries.add(ModBlocks.POLISHED_LITHOSITE_SLAB);
                         entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
-                        entries.add(ModBlocks.CHISELED_LITHOSITE);
+                        entries.add(ModBlocks.CHISELED_LITHOSITE_BRICKS);
                         entries.add(ModBlocks.WARPED_BLOOM);
+                        entries.add(ModBlocks.WARPED_BLOOM_STAIRS);
+                        entries.add(ModBlocks.WARPED_BLOOM_SLAB);
+                        entries.add(ModBlocks.WARPED_BLOOM_WALL);
                         entries.add(ModBlocks.GLOWING_WARPED_BLOOM);
+                        entries.add(ModBlocks.GLOWING_WARPED_BLOOM_STAIRS);
+                        entries.add(ModBlocks.GLOWING_WARPED_BLOOM_SLAB);
+                        entries.add(ModBlocks.GLOWING_WARPED_BLOOM_WALL);
                         entries.add(ModBlocks.NETHER_BLOOM);
+                        entries.add(ModBlocks.NETHER_BLOOM_STAIRS);
+                        entries.add(ModBlocks.NETHER_BLOOM_SLAB);
+                        entries.add(ModBlocks.NETHER_BLOOM_WALL);
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM);
+                        entries.add(ModBlocks.GLOWING_NETHER_BLOOM_STAIRS);
+                        entries.add(ModBlocks.GLOWING_NETHER_BLOOM_SLAB);
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
                         entries.add(ModBlocks.ROTTEN_PLANKS);
 

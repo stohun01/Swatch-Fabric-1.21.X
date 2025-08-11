@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/glowing_nether_bloom_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/glowing_nether_bloom"
+    },
+    "type=top": {
+      "model": "swatch:block/glowing_nether_bloom_slab_top"
+    }
+  }
+}

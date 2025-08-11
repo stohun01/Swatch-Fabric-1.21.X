@@ -49,13 +49,26 @@
   "block.swatch.polished_lithosite_slab": "Polished Lithosite Slab",
   "block.swatch.polished_lithosite_wall": "Polished Lithosite Wall",
 
-  "block.swatch.chiseled_lithosite": "Chiseled Lithosite",
+  "block.swatch.chiseled_lithosite_bricks": "Chiseled Lithosite Bricks",
 
   "block.swatch.warped_bloom": "Warped Bloom",
+  "block.swatch.warped_bloom_stairs": "Warped Bloom Stairs",
+  "block.swatch.warped_bloom_slab": "Warped Bloom Slab",
+  "block.swatch.warped_bloom_wall": "Warped Bloom Wall",
+
   "block.swatch.glowing_warped_bloom": "Glowing Warped Bloom",
+  "block.swatch.glowing_warped_bloom_stairs": "Glowing Warped Bloom Stairs",
+  "block.swatch.glowing_warped_bloom_slab": "Glowing Warped Bloom Slab",
+  "block.swatch.glowing_warped_bloom_wall": "Glowing Warped Bloom Wall",
 
   "block.swatch.nether_bloom": "Nether Bloom",
+  "block.swatch.nether_bloom_stairs": "Nether Bloom Stairs",
+  "block.swatch.nether_bloom_slab": "Nether Bloom Slab",
+  "block.swatch.nether_bloom_wall": "Nether Bloom Wall",
+
   "block.swatch.glowing_nether_bloom": "Glowing Nether Bloom",
+  "block.swatch.glowing_nether_bloom_stairs": "Glowing Nether Bloom Stairs",
+  "block.swatch.glowing_nether_bloom_slab": "Glowing Nether Bloom Slab",
   "block.swatch.glowing_nether_bloom_wall": "Glowing Nether Bloom Wall",
 
   "block.swatch.rotten_planks": "Rotten Planks",

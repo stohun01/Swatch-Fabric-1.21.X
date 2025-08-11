@@ -23,8 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool warpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WARPED_BLOOM);
         //BlockStateModelGenerator.BlockTexturePool glowingWarpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_WARPED_BLOOM);
         BlockStateModelGenerator.BlockTexturePool netherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.NETHER_BLOOM);
-        BlockStateModelGenerator.BlockTexturePool glowingNetherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_NETHER_BLOOM);
-        BlockStateModelGenerator.BlockTexturePool rottenPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ROTTEN_PLANKS);
+        //BlockStateModelGenerator.BlockTexturePool glowingNetherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_NETHER_BLOOM);
 
         eggPool.stairs(ModBlocks.EGG_STAIRS);
         eggPool.slab(ModBlocks.EGG_SLAB);
@@ -54,7 +53,21 @@ public class ModModelProvider extends FabricModelProvider {
         polishedLithositePool.slab(ModBlocks.POLISHED_LITHOSITE_SLAB);
         polishedLithositePool.wall(ModBlocks.POLISHED_LITHOSITE_WALL);
 
-        glowingNetherBloomPool.wall(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
+        warpedBloomPool.stairs(ModBlocks.WARPED_BLOOM_STAIRS);
+        warpedBloomPool.slab(ModBlocks.WARPED_BLOOM_SLAB);
+        warpedBloomPool.wall(ModBlocks.WARPED_BLOOM_WALL);
+
+        //glowingWarpedBloomPool.stairs(ModBlocks.GLOWING_WARPED_BLOOM_STAIRS);
+        //glowingWarpedBloomPool.slab(ModBlocks.GLOWING_WARPED_BLOOM_SLAB);
+        //glowingWarpedBloomPool.wall(ModBlocks.GLOWING_WARPED_BLOOM_WALL);
+
+        netherBloomPool.stairs(ModBlocks.NETHER_BLOOM_STAIRS);
+        netherBloomPool.slab(ModBlocks.NETHER_BLOOM_SLAB);
+        netherBloomPool.wall(ModBlocks.NETHER_BLOOM_WALL);
+
+        //glowingNetherBloomPool.stairs(ModBlocks.GLOWING_NETHER_BLOOM_STAIRS);
+        //glowingNetherBloomPool.slab(ModBlocks.GLOWING_NETHER_BLOOM_SLAB);
+        //glowingNetherBloomPool.wall(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
 
     }
 
