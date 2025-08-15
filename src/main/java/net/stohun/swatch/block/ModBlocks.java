@@ -82,17 +82,17 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().strength(1.25f, 4.2f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block EMBALM = registerBlock("embalm",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block EMBALM_STAIRS = registerBlock("embalm_stairs",
             new StairsBlock(ModBlocks.EMBALM.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block EMBALM_SLAB = registerBlock("embalm_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block EMBALM_WALL = registerBlock("embalm_wall",
-            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SHROOMLIGHT)));
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block LITHOSITE = registerBlock("lithosite",
             new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
