@@ -73,5 +73,9 @@
 
   "block.swatch.rotten_planks": "Rotten Planks",
 
+  "block.swatch.pink_bouquet_slab": "Pink Bouquet",
+  "block.swatch.white_bouquet_slab": "White Bouquet",
+  "block.swatch.yellow_bouquet_slab": "Yellow Bouquet",
+
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/yellow_bouquet_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/yellow_bouquet_slab_double"
+    },
+    "type=top": {
+      "model": "swatch:block/yellow_bouquet_slab_top"
+    }
+  }
+}

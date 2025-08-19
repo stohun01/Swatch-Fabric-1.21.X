@@ -205,6 +205,15 @@ public class ModBlocks {
     public static final Block ROTTEN_PLANKS = registerBlock("rotten_planks",
             new MangroveRootsBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).nonOpaque()));
 
+    public static final Block PINK_BOUQUET_SLAB = registerBlock("pink_bouquet_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision().nonOpaque()));
+
+    public static final Block WHITE_BOUQUET_SLAB = registerBlock("white_bouquet_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision().nonOpaque()));
+
+    public static final Block YELLOW_BOUQUET_SLAB = registerBlock("yellow_bouquet_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision().nonOpaque()));
+
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;
     }
@@ -281,6 +290,9 @@ public class ModBlocks {
             entries.add(ModBlocks.GLOWING_NETHER_BLOOM_SLAB);
             entries.add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
             entries.add(ModBlocks.ROTTEN_PLANKS);
+            entries.add(ModBlocks.PINK_BOUQUET_SLAB);
+            entries.add(ModBlocks.WHITE_BOUQUET_SLAB);
+            entries.add(ModBlocks.YELLOW_BOUQUET_SLAB);
         });
 
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.KELP_BLOCK, 30, 60);

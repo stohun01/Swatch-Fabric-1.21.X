@@ -75,6 +75,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM_SLAB);
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
                         entries.add(ModBlocks.ROTTEN_PLANKS);
+                        entries.add(ModBlocks.PINK_BOUQUET_SLAB);
+                        entries.add(ModBlocks.WHITE_BOUQUET_SLAB);
+                        entries.add(ModBlocks.YELLOW_BOUQUET_SLAB);
 
                     }).build());
 
