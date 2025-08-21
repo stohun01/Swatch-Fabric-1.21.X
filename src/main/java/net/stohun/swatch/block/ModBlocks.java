@@ -203,16 +203,16 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.create().emissiveLighting(ModBlocks::always).luminance(value -> 1).strength(1f).sounds(BlockSoundGroup.WART_BLOCK)));
 
     public static final Block ROTTEN_PLANKS = registerBlock("rotten_planks",
-            new MangroveRootsBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).nonOpaque()));
+            new TransparentMangroveRootsBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).nonOpaque()));
 
     public static final Block PINK_BOUQUET_SLAB = registerBlock("pink_bouquet_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision().nonOpaque()));
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
     public static final Block WHITE_BOUQUET_SLAB = registerBlock("white_bouquet_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision().nonOpaque()));
+            new TransparentSlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
     public static final Block YELLOW_BOUQUET_SLAB = registerBlock("yellow_bouquet_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision().nonOpaque()));
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;

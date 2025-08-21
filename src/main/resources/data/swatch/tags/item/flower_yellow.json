@@ -2,6 +2,6 @@
   "values": [
     "minecraft:dandelion",
     "minecraft:sunflower",
-    "farmersdelight:wild_cabbages"
+    { "id": "farmersdelight:wild_cabbages", "required": false }
   ]
 }
