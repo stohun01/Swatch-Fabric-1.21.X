@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab",
+  "ambientocclusion": "false",
+  "textures": {
+    "bottom": "swatch:block/pink_bouquet_0",
+    "side": "swatch:block/pink_bouquet_0",
+    "top": "swatch:block/pink_bouquet_0"
+  }
+}

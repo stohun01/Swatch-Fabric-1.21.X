@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "WY"
+  ],
+  "key": {
+    "P": {
+      "tag": "swatch:flower_pink"
+    },
+    "W": {
+      "tag": "swatch:flower_white"
+    },
+    "Y": {
+      "tag": "swatch:flower_yellow"
+    }
+  },
+  "result": {
+    "id": "swatch:pink_bouquet_slab",
+    "count": 2
+  }
+}

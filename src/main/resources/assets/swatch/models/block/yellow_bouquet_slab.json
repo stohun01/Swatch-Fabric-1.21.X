@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "ambientocclusion": "false",
-  "textures": {
-    "bottom": "swatch:block/yellow_bouquet",
-    "side": "swatch:block/yellow_bouquet",
-    "top": "swatch:block/yellow_bouquet"
-  }
-}

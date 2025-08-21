@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_all",
   "ambientocclusion": "false",
   "textures": {
-    "all": "swatch:block/yellow_bouquet"
+    "all": "swatch:block/white_bouquet_1"
   }
 }

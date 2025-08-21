@@ -1,13 +1,28 @@
 {
   "variants": {
-    "type=bottom": {
-      "model": "swatch:block/yellow_bouquet_slab"
-    },
-    "type=double": {
-      "model": "swatch:block/yellow_bouquet_slab_double"
-    },
-    "type=top": {
-      "model": "swatch:block/yellow_bouquet_slab_top"
-    }
+    "type=bottom": [
+      {
+        "model": "swatch:block/yellow_bouquet_slab_0"
+      },
+      {
+        "model": "swatch:block/yellow_bouquet_slab_1"
+      }
+    ],
+    "type=double": [
+      {
+        "model": "swatch:block/yellow_bouquet_slab_double_0"
+      },
+      {
+        "model": "swatch:block/yellow_bouquet_slab_double_1"
+      }
+    ],
+    "type=top": [
+      {
+        "model": "swatch:block/yellow_bouquet_slab_top_0"
+      },
+      {
+        "model": "swatch:block/yellow_bouquet_slab_top_1"
+      }
+    ]
   }
 }

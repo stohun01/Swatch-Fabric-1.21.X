@@ -77,5 +77,10 @@
   "block.swatch.white_bouquet_slab": "White Bouquet",
   "block.swatch.yellow_bouquet_slab": "Yellow Bouquet",
 
+  "tag.item.swatch.fungi": "Fungi",
+  "tag.item.swatch.flower_pink": "Pink Flowers",
+  "tag.item.swatch.flower_white": "White Flowers",
+  "tag.item.swatch.flower_yellow": "Yellow Flowers",
+
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

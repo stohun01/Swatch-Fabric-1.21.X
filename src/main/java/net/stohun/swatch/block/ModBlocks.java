@@ -300,5 +300,8 @@ public class ModBlocks {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.KELP_SLAB, 30, 60);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.KELP_WALL, 30, 60);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ROTTEN_PLANKS, 5, 20);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINK_BOUQUET_SLAB, 30, 60);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WHITE_BOUQUET_SLAB, 30, 60);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.YELLOW_BOUQUET_SLAB, 30, 60);
     }
 }
