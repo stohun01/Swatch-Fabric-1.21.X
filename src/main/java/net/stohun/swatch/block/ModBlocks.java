@@ -206,13 +206,13 @@ public class ModBlocks {
             new TransparentMangroveRootsBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f).sounds(BlockSoundGroup.BAMBOO_WOOD).nonOpaque()));
 
     public static final Block PINK_BOUQUET_SLAB = registerBlock("pink_bouquet_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
+            new TransparentSlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
     public static final Block WHITE_BOUQUET_SLAB = registerBlock("white_bouquet_slab",
             new TransparentSlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
     public static final Block YELLOW_BOUQUET_SLAB = registerBlock("yellow_bouquet_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
+            new TransparentSlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;
