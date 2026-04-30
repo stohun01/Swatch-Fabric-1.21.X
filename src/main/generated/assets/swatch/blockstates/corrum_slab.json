@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/corrum_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/corrum"
+    },
+    "type=top": {
+      "model": "swatch:block/corrum_slab_top"
+    }
+  }
+}

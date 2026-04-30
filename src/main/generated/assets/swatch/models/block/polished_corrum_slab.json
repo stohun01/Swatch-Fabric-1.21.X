@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "swatch:block/polished_corrum",
+    "side": "swatch:block/polished_corrum",
+    "top": "swatch:block/polished_corrum"
+  }
+}

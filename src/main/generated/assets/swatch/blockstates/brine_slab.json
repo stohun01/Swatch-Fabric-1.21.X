@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/brine_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/brine"
+    },
+    "type=top": {
+      "model": "swatch:block/brine_slab_top"
+    }
+  }
+}

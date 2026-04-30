@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/brack_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/brack"
+    },
+    "type=top": {
+      "model": "swatch:block/brack_slab_top"
+    }
+  }
+}

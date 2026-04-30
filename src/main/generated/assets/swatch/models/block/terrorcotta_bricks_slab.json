@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "swatch:block/terrorcotta_bricks",
+    "side": "swatch:block/terrorcotta_bricks",
+    "top": "swatch:block/terrorcotta_bricks"
+  }
+}

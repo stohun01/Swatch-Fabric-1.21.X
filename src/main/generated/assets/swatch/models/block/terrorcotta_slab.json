@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "swatch:block/terrorcotta",
+    "side": "swatch:block/terrorcotta",
+    "top": "swatch:block/terrorcotta"
+  }
+}

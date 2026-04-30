@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "swatch:block/terrorcotta_slab"
+    },
+    "type=double": {
+      "model": "swatch:block/terrorcotta"
+    },
+    "type=top": {
+      "model": "swatch:block/terrorcotta_slab_top"
+    }
+  }
+}
