@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:blue_egg_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:blue_egg_stairs"
+  }
+}

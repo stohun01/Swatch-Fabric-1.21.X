@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:polished_corrum"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:polished_corrum_stairs"
+  }
+}

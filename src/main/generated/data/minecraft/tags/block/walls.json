@@ -13,6 +13,14 @@
     "swatch:warped_bloom_wall",
     "swatch:glowing_warped_bloom_wall",
     "swatch:nether_bloom_wall",
-    "swatch:glowing_nether_bloom_wall"
+    "swatch:glowing_nether_bloom_wall",
+    "swatch:terrorcotta_wall",
+    "swatch:terrorcotta_bricks_wall",
+    "swatch:brack_wall",
+    "swatch:brine_wall",
+    "swatch:corrum_wall",
+    "swatch:polished_corrum_wall",
+    "swatch:riveted_corrum_wall",
+    "swatch:blue_egg_wall"
   ]
 }

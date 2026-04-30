@@ -82,5 +82,45 @@
   "tag.item.swatch.flower_white": "White Flowers",
   "tag.item.swatch.flower_yellow": "Yellow Flowers",
 
+  "block.swatch.terrorcotta": "Terrorcotta",
+  "block.swatch.terrorcotta_stairs": "Terrorcotta Stairs",
+  "block.swatch.terrorcotta_slab": "Terrorcotta Slab",
+  "block.swatch.terrorcotta_wall": "Terrorcotta Wall",
+
+  "block.swatch.terrorcotta_bricks": "Terrorcotta Bricks",
+  "block.swatch.terrorcotta_bricks_stairs": "Terrorcotta Bricks Stairs",
+  "block.swatch.terrorcotta_bricks_slab": "Terrorcotta Bricks Slab",
+  "block.swatch.terrorcotta_bricks_wall": "Terrorcotta Bricks Wall",
+
+  "block.swatch.brack": "Brack",
+  "block.swatch.brack_stairs": "Brack Stairs",
+  "block.swatch.brack_slab": "Brack Slab",
+  "block.swatch.brack_wall": "Brack Wall",
+
+  "block.swatch.brine": "Brine",
+  "block.swatch.brine_stairs": "Brine Stairs",
+  "block.swatch.brine_slab": "Brine Slab",
+  "block.swatch.brine_wall": "Brine Wall",
+
+  "block.swatch.corrum": "Corrum",
+  "block.swatch.corrum_stairs": "Corrum Stairs",
+  "block.swatch.corrum_slab": "Corrum Slab",
+  "block.swatch.corrum_wall": "Corrum Wall",
+
+  "block.swatch.polished_corrum": "Polished Corrum",
+  "block.swatch.polished_corrum_stairs": "Polished Corrum Stairs",
+  "block.swatch.polished_corrum_slab": "Polished Corrum Slab",
+  "block.swatch.polished_corrum_wall": "Polished Corrum Wall",
+
+  "block.swatch.riveted_corrum": "Riveted Corrum",
+  "block.swatch.riveted_corrum_stairs": "Riveted Corrum Stairs",
+  "block.swatch.riveted_corrum_slab": "Riveted Corrum Slab",
+  "block.swatch.riveted_corrum_wall": "Riveted Corrum Wall",
+
+  "block.swatch.blue_egg_block": "Blue Egg Block",
+  "block.swatch.blue_egg_stairs": "Blue Egg Stairs",
+  "block.swatch.blue_egg_slab": "Blue Egg Slab",
+  "block.swatch.blue_egg_wall": "Blue Egg Wall",
+
   "itemgroup.swatch.swatch_blocks": "Swatch Blocks"
 }

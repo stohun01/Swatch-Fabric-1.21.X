@@ -1,0 +1,26 @@
+{
+  "values": [
+    "swatch:egg_stairs",
+    "swatch:rotten_egg_stairs",
+    "swatch:honey_crystal_stairs",
+    "swatch:kelp_stairs",
+    "swatch:cracked_mud_stairs",
+    "swatch:embalm_stairs",
+    "swatch:lithosite_stairs",
+    "swatch:lithosite_bricks_stairs",
+    "swatch:lithosite_tiles_stairs",
+    "swatch:polished_lithosite_stairs",
+    "swatch:warped_bloom_stairs",
+    "swatch:glowing_warped_bloom_stairs",
+    "swatch:nether_bloom_stairs",
+    "swatch:glowing_nether_bloom_stairs",
+    "swatch:terrorcotta_stairs",
+    "swatch:terrorcotta_bricks_stairs",
+    "swatch:brack_stairs",
+    "swatch:brine_stairs",
+    "swatch:corrum_stairs",
+    "swatch:polished_corrum_stairs",
+    "swatch:riveted_corrum_stairs",
+    "swatch:blue_egg_stairs"
+  ]
+}

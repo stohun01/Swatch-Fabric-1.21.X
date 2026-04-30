@@ -24,6 +24,14 @@ public class ModModelProvider extends FabricModelProvider {
         //BlockStateModelGenerator.BlockTexturePool glowingWarpedBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_WARPED_BLOOM);
         BlockStateModelGenerator.BlockTexturePool netherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.NETHER_BLOOM);
         //BlockStateModelGenerator.BlockTexturePool glowingNetherBloomPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOWING_NETHER_BLOOM);
+        BlockStateModelGenerator.BlockTexturePool terrorcottaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TERRORCOTTA);
+        BlockStateModelGenerator.BlockTexturePool terrorcottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TERRORCOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool brackPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BRACK);
+        BlockStateModelGenerator.BlockTexturePool brinePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BRINE);
+        BlockStateModelGenerator.BlockTexturePool corrumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORRUM);
+        BlockStateModelGenerator.BlockTexturePool polishedCorrumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_CORRUM);
+        //BlockStateModelGenerator.BlockTexturePool rivetedCorrumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RIVETED_CORRUM);
+        BlockStateModelGenerator.BlockTexturePool blueEggPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLUE_EGG_BLOCK);
 
         eggPool.stairs(ModBlocks.EGG_STAIRS);
         eggPool.slab(ModBlocks.EGG_SLAB);
@@ -68,6 +76,38 @@ public class ModModelProvider extends FabricModelProvider {
         //glowingNetherBloomPool.stairs(ModBlocks.GLOWING_NETHER_BLOOM_STAIRS);
         //glowingNetherBloomPool.slab(ModBlocks.GLOWING_NETHER_BLOOM_SLAB);
         //glowingNetherBloomPool.wall(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
+
+        terrorcottaPool.stairs(ModBlocks.TERRORCOTTA_STAIRS);
+        terrorcottaPool.slab(ModBlocks.TERRORCOTTA_SLAB);
+        terrorcottaPool.wall(ModBlocks.TERRORCOTTA_WALL);
+
+        terrorcottaBricksPool.stairs(ModBlocks.TERRORCOTTA_BRICKS_STAIRS);
+        terrorcottaBricksPool.slab(ModBlocks.TERRORCOTTA_BRICKS_SLAB);
+        terrorcottaBricksPool.wall(ModBlocks.TERRORCOTTA_BRICKS_WALL);
+
+        brackPool.stairs(ModBlocks.BRACK_STAIRS);
+        brackPool.slab(ModBlocks.BRACK_SLAB);
+        brackPool.wall(ModBlocks.BRACK_WALL);
+
+        brinePool.stairs(ModBlocks.BRINE_STAIRS);
+        brinePool.slab(ModBlocks.BRINE_SLAB);
+        brinePool.wall(ModBlocks.BRINE_WALL);
+
+        corrumPool.stairs(ModBlocks.CORRUM_STAIRS);
+        corrumPool.slab(ModBlocks.CORRUM_SLAB);
+        corrumPool.wall(ModBlocks.CORRUM_WALL);
+
+        polishedCorrumPool.stairs(ModBlocks.POLISHED_CORRUM_STAIRS);
+        polishedCorrumPool.slab(ModBlocks.POLISHED_CORRUM_SLAB);
+        polishedCorrumPool.wall(ModBlocks.POLISHED_CORRUM_WALL);
+
+        //rivetedCorrumPool.stairs(ModBlocks.RIVETED_CORRUM_STAIRS);
+        //rivetedCorrumPool.slab(ModBlocks.RIVETED_CORRUM_SLAB);
+        //rivetedCorrumPool.wall(ModBlocks.RIVETED_CORRUM_WALL);
+
+        blueEggPool.stairs(ModBlocks.BLUE_EGG_STAIRS);
+        blueEggPool.slab(ModBlocks.BLUE_EGG_SLAB);
+        blueEggPool.wall(ModBlocks.BLUE_EGG_WALL);
 
     }
 

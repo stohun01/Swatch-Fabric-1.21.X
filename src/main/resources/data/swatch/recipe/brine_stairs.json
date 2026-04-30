@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:brine"
+    }
+  },
+  "result": {
+    "id": "swatch:brine_stairs",
+    "count": 4
+  }
+}

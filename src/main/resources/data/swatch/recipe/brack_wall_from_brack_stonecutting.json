@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:brack"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:brack_wall"
+  }
+}

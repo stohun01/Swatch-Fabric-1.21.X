@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:terrorcotta"
+  },
+  "result": {
+    "count": 1,
+    "id": "swatch:terrorcotta_bricks_wall"
+  }
+}

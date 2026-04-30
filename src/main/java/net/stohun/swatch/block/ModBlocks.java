@@ -42,6 +42,19 @@ public class ModBlocks {
     public static final Block ROTTEN_EGG_WALL = registerBlock("rotten_egg_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
+    public static final Block BLUE_EGG_BLOCK = registerBlock("blue_egg_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block BLUE_EGG_STAIRS = registerBlock("blue_egg_stairs",
+            new StairsBlock(ModBlocks.BLUE_EGG_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block BLUE_EGG_SLAB = registerBlock("blue_egg_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block BLUE_EGG_WALL = registerBlock("blue_egg_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
     public static final Block HONEY_CRYSTAL_BLOCK = registerBlock("honey_crystal_block",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
@@ -214,6 +227,97 @@ public class ModBlocks {
     public static final Block YELLOW_BOUQUET_SLAB = registerBlock("yellow_bouquet_slab",
             new TransparentSlabBlock(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.AZALEA_LEAVES).nonOpaque().noCollision()));
 
+    public static final Block TERRORCOTTA = registerBlock("terrorcotta",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_STAIRS = registerBlock("terrorcotta_stairs",
+            new StairsBlock(ModBlocks.TERRORCOTTA.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_SLAB = registerBlock("terrorcotta_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_WALL = registerBlock("terrorcotta_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_BRICKS = registerBlock("terrorcotta_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_BRICKS_STAIRS = registerBlock("terrorcotta_bricks_stairs",
+            new StairsBlock(ModBlocks.TERRORCOTTA_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_BRICKS_SLAB = registerBlock("terrorcotta_bricks_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block TERRORCOTTA_BRICKS_WALL = registerBlock("terrorcotta_bricks_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRACK = registerBlock("brack",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRACK_STAIRS = registerBlock("brack_stairs",
+            new StairsBlock(ModBlocks.BRACK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRACK_SLAB = registerBlock("brack_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRACK_WALL = registerBlock("brack_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRINE = registerBlock("brine",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRINE_STAIRS = registerBlock("brine_stairs",
+            new StairsBlock(ModBlocks.BRINE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRINE_SLAB = registerBlock("brine_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block BRINE_WALL = registerBlock("brine_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CORRUM = registerBlock("corrum",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CORRUM_STAIRS = registerBlock("corrum_stairs",
+            new StairsBlock(ModBlocks.CORRUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CORRUM_SLAB = registerBlock("corrum_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block CORRUM_WALL = registerBlock("corrum_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_CORRUM = registerBlock("polished_corrum",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_CORRUM_STAIRS = registerBlock("polished_corrum_stairs",
+            new StairsBlock(ModBlocks.POLISHED_CORRUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_CORRUM_SLAB = registerBlock("polished_corrum_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block POLISHED_CORRUM_WALL = registerBlock("polished_corrum_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RIVETED_CORRUM = registerBlock("riveted_corrum",
+            new Block(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RIVETED_CORRUM_STAIRS = registerBlock("riveted_corrum_stairs",
+            new StairsBlock(ModBlocks.RIVETED_CORRUM.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RIVETED_CORRUM_SLAB = registerBlock("riveted_corrum_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block RIVETED_CORRUM_WALL = registerBlock("riveted_corrum_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.25f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;
     }
@@ -240,6 +344,10 @@ public class ModBlocks {
             entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
             entries.add(ModBlocks.ROTTEN_EGG_SLAB);
             entries.add(ModBlocks.ROTTEN_EGG_WALL);
+            entries.add(ModBlocks.BLUE_EGG_BLOCK);
+            entries.add(ModBlocks.BLUE_EGG_STAIRS);
+            entries.add(ModBlocks.BLUE_EGG_SLAB);
+            entries.add(ModBlocks.BLUE_EGG_WALL);
             entries.add(ModBlocks.HONEY_CRYSTAL_BLOCK);
             entries.add(ModBlocks.HONEY_CRYSTAL_STAIRS);
             entries.add(ModBlocks.HONEY_CRYSTAL_SLAB);
@@ -293,6 +401,34 @@ public class ModBlocks {
             entries.add(ModBlocks.PINK_BOUQUET_SLAB);
             entries.add(ModBlocks.WHITE_BOUQUET_SLAB);
             entries.add(ModBlocks.YELLOW_BOUQUET_SLAB);
+            entries.add(ModBlocks.TERRORCOTTA);
+            entries.add(ModBlocks.TERRORCOTTA_STAIRS);
+            entries.add(ModBlocks.TERRORCOTTA_SLAB);
+            entries.add(ModBlocks.TERRORCOTTA_WALL);
+            entries.add(ModBlocks.TERRORCOTTA_BRICKS);
+            entries.add(ModBlocks.TERRORCOTTA_BRICKS_STAIRS);
+            entries.add(ModBlocks.TERRORCOTTA_BRICKS_SLAB);
+            entries.add(ModBlocks.TERRORCOTTA_BRICKS_WALL);
+            entries.add(ModBlocks.BRACK);
+            entries.add(ModBlocks.BRACK_STAIRS);
+            entries.add(ModBlocks.BRACK_SLAB);
+            entries.add(ModBlocks.BRACK_WALL);
+            entries.add(ModBlocks.BRINE);
+            entries.add(ModBlocks.BRINE_STAIRS);
+            entries.add(ModBlocks.BRINE_SLAB);
+            entries.add(ModBlocks.BRINE_WALL);
+            entries.add(ModBlocks.CORRUM);
+            entries.add(ModBlocks.CORRUM_STAIRS);
+            entries.add(ModBlocks.CORRUM_SLAB);
+            entries.add(ModBlocks.CORRUM_WALL);
+            entries.add(ModBlocks.POLISHED_CORRUM);
+            entries.add(ModBlocks.POLISHED_CORRUM_STAIRS);
+            entries.add(ModBlocks.POLISHED_CORRUM_SLAB);
+            entries.add(ModBlocks.POLISHED_CORRUM_WALL);
+            entries.add(ModBlocks.RIVETED_CORRUM);
+            entries.add(ModBlocks.RIVETED_CORRUM_STAIRS);
+            entries.add(ModBlocks.RIVETED_CORRUM_SLAB);
+            entries.add(ModBlocks.RIVETED_CORRUM_WALL);
         });
 
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.KELP_BLOCK, 30, 60);

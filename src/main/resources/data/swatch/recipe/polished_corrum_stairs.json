@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:polished_corrum"
+    }
+  },
+  "result": {
+    "id": "swatch:polished_corrum_stairs",
+    "count": 4
+  }
+}

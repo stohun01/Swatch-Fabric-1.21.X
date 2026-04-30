@@ -75,6 +75,37 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINK_BOUQUET_SLAB, slabDrops(ModBlocks.PINK_BOUQUET_SLAB));
         addDrop(ModBlocks.WHITE_BOUQUET_SLAB, slabDrops(ModBlocks.WHITE_BOUQUET_SLAB));
         addDrop(ModBlocks.YELLOW_BOUQUET_SLAB, slabDrops(ModBlocks.YELLOW_BOUQUET_SLAB));
-
+        addDrop(ModBlocks.TERRORCOTTA);
+        addDrop(ModBlocks.TERRORCOTTA_STAIRS);
+        addDrop(ModBlocks.TERRORCOTTA_SLAB);
+        addDrop(ModBlocks.TERRORCOTTA_WALL);
+        addDrop(ModBlocks.TERRORCOTTA_BRICKS);
+        addDrop(ModBlocks.TERRORCOTTA_BRICKS_STAIRS);
+        addDrop(ModBlocks.TERRORCOTTA_BRICKS_SLAB);
+        addDrop(ModBlocks.TERRORCOTTA_BRICKS_WALL);
+        addDrop(ModBlocks.BRACK);
+        addDrop(ModBlocks.BRACK_STAIRS);
+        addDrop(ModBlocks.BRACK_SLAB);
+        addDrop(ModBlocks.BRACK_WALL);
+        addDrop(ModBlocks.BRINE);
+        addDrop(ModBlocks.BRINE_STAIRS);
+        addDrop(ModBlocks.BRINE_SLAB);
+        addDrop(ModBlocks.BRINE_WALL);
+        addDrop(ModBlocks.CORRUM);
+        addDrop(ModBlocks.CORRUM_STAIRS);
+        addDrop(ModBlocks.CORRUM_SLAB);
+        addDrop(ModBlocks.CORRUM_WALL);
+        addDrop(ModBlocks.POLISHED_CORRUM);
+        addDrop(ModBlocks.POLISHED_CORRUM_STAIRS);
+        addDrop(ModBlocks.POLISHED_CORRUM_SLAB);
+        addDrop(ModBlocks.POLISHED_CORRUM_WALL);
+        addDrop(ModBlocks.RIVETED_CORRUM);
+        addDrop(ModBlocks.RIVETED_CORRUM_STAIRS);
+        addDrop(ModBlocks.RIVETED_CORRUM_SLAB);
+        addDrop(ModBlocks.RIVETED_CORRUM_WALL);
+        addDrop(ModBlocks.BLUE_EGG_BLOCK);
+        addDrop(ModBlocks.BLUE_EGG_STAIRS);
+        addDrop(ModBlocks.BLUE_EGG_SLAB);
+        addDrop(ModBlocks.BLUE_EGG_WALL);
     }
 }

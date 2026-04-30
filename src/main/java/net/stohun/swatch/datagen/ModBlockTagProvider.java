@@ -52,7 +52,39 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POLISHED_LITHOSITE_STAIRS)
                 .add(ModBlocks.POLISHED_LITHOSITE_SLAB)
                 .add(ModBlocks.POLISHED_LITHOSITE_WALL)
-                .add(ModBlocks.CHISELED_LITHOSITE_BRICKS);
+                .add(ModBlocks.CHISELED_LITHOSITE_BRICKS)
+                .add(ModBlocks.TERRORCOTTA)
+                .add(ModBlocks.TERRORCOTTA_STAIRS)
+                .add(ModBlocks.TERRORCOTTA_SLAB)
+                .add(ModBlocks.TERRORCOTTA_WALL)
+                .add(ModBlocks.TERRORCOTTA_BRICKS)
+                .add(ModBlocks.TERRORCOTTA_BRICKS_STAIRS)
+                .add(ModBlocks.TERRORCOTTA_BRICKS_SLAB)
+                .add(ModBlocks.TERRORCOTTA_BRICKS_WALL)
+                .add(ModBlocks.BRACK)
+                .add(ModBlocks.BRACK_STAIRS)
+                .add(ModBlocks.BRACK_SLAB)
+                .add(ModBlocks.BRACK_WALL)
+                .add(ModBlocks.BRINE)
+                .add(ModBlocks.BRINE_STAIRS)
+                .add(ModBlocks.BRINE_SLAB)
+                .add(ModBlocks.BRINE_WALL)
+                .add(ModBlocks.CORRUM)
+                .add(ModBlocks.CORRUM_STAIRS)
+                .add(ModBlocks.CORRUM_SLAB)
+                .add(ModBlocks.CORRUM_WALL)
+                .add(ModBlocks.POLISHED_CORRUM)
+                .add(ModBlocks.POLISHED_CORRUM_STAIRS)
+                .add(ModBlocks.POLISHED_CORRUM_SLAB)
+                .add(ModBlocks.POLISHED_CORRUM_WALL)
+                .add(ModBlocks.RIVETED_CORRUM)
+                .add(ModBlocks.RIVETED_CORRUM_STAIRS)
+                .add(ModBlocks.RIVETED_CORRUM_SLAB)
+                .add(ModBlocks.RIVETED_CORRUM_WALL)
+                .add(ModBlocks.BLUE_EGG_BLOCK)
+                .add(ModBlocks.BLUE_EGG_STAIRS)
+                .add(ModBlocks.BLUE_EGG_SLAB)
+                .add(ModBlocks.BLUE_EGG_WALL);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.WARPED_BLOOM)
@@ -89,5 +121,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GLOWING_WARPED_BLOOM_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.NETHER_BLOOM_WALL);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.TERRORCOTTA_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.TERRORCOTTA_BRICKS_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BRACK_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BRINE_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.CORRUM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.POLISHED_CORRUM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.RIVETED_CORRUM_WALL);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.BLUE_EGG_WALL);
     }
 }

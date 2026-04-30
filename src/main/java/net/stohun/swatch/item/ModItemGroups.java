@@ -25,6 +25,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ROTTEN_EGG_STAIRS);
                         entries.add(ModBlocks.ROTTEN_EGG_SLAB);
                         entries.add(ModBlocks.ROTTEN_EGG_WALL);
+                        entries.add(ModBlocks.ROTTEN_PLANKS);
+
                         entries.add(ModBlocks.HONEY_CRYSTAL_BLOCK);
                         entries.add(ModBlocks.HONEY_CRYSTAL_STAIRS);
                         entries.add(ModBlocks.HONEY_CRYSTAL_SLAB);
@@ -33,6 +35,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.KELP_STAIRS);
                         entries.add(ModBlocks.KELP_SLAB);
                         entries.add(ModBlocks.KELP_WALL);
+                        entries.add(ModBlocks.PINK_BOUQUET_SLAB);
+
                         entries.add(ModBlocks.CRACKED_MUD);
                         entries.add(ModBlocks.CRACKED_MUD_STAIRS);
                         entries.add(ModBlocks.CRACKED_MUD_SLAB);
@@ -41,6 +45,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EMBALM_STAIRS);
                         entries.add(ModBlocks.EMBALM_SLAB);
                         entries.add(ModBlocks.EMBALM_WALL);
+                        entries.add(ModBlocks.WHITE_BOUQUET_SLAB);
+
                         entries.add(ModBlocks.LITHOSITE);
                         entries.add(ModBlocks.LITHOSITE_STAIRS);
                         entries.add(ModBlocks.LITHOSITE_SLAB);
@@ -49,6 +55,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LITHOSITE_BRICKS_STAIRS);
                         entries.add(ModBlocks.LITHOSITE_BRICKS_SLAB);
                         entries.add(ModBlocks.LITHOSITE_BRICKS_WALL);
+                        entries.add(ModBlocks.YELLOW_BOUQUET_SLAB);
+
                         entries.add(ModBlocks.LITHOSITE_TILES);
                         entries.add(ModBlocks.LITHOSITE_TILES_STAIRS);
                         entries.add(ModBlocks.LITHOSITE_TILES_SLAB);
@@ -58,6 +66,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_LITHOSITE_SLAB);
                         entries.add(ModBlocks.POLISHED_LITHOSITE_WALL);
                         entries.add(ModBlocks.CHISELED_LITHOSITE_BRICKS);
+
                         entries.add(ModBlocks.WARPED_BLOOM);
                         entries.add(ModBlocks.WARPED_BLOOM_STAIRS);
                         entries.add(ModBlocks.WARPED_BLOOM_SLAB);
@@ -66,6 +75,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLOWING_WARPED_BLOOM_STAIRS);
                         entries.add(ModBlocks.GLOWING_WARPED_BLOOM_SLAB);
                         entries.add(ModBlocks.GLOWING_WARPED_BLOOM_WALL);
+
                         entries.add(ModBlocks.NETHER_BLOOM);
                         entries.add(ModBlocks.NETHER_BLOOM_STAIRS);
                         entries.add(ModBlocks.NETHER_BLOOM_SLAB);
@@ -74,10 +84,44 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM_STAIRS);
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM_SLAB);
                         entries.add(ModBlocks.GLOWING_NETHER_BLOOM_WALL);
-                        entries.add(ModBlocks.ROTTEN_PLANKS);
-                        entries.add(ModBlocks.PINK_BOUQUET_SLAB);
-                        entries.add(ModBlocks.WHITE_BOUQUET_SLAB);
-                        entries.add(ModBlocks.YELLOW_BOUQUET_SLAB);
+
+                        entries.add(ModBlocks.TERRORCOTTA);
+                        entries.add(ModBlocks.TERRORCOTTA_STAIRS);
+                        entries.add(ModBlocks.TERRORCOTTA_SLAB);
+                        entries.add(ModBlocks.TERRORCOTTA_WALL);
+                        entries.add(ModBlocks.TERRORCOTTA_BRICKS);
+                        entries.add(ModBlocks.TERRORCOTTA_BRICKS_STAIRS);
+                        entries.add(ModBlocks.TERRORCOTTA_BRICKS_SLAB);
+                        entries.add(ModBlocks.TERRORCOTTA_BRICKS_WALL);
+
+                        entries.add(ModBlocks.BRACK);
+                        entries.add(ModBlocks.BRACK_STAIRS);
+                        entries.add(ModBlocks.BRACK_SLAB);
+                        entries.add(ModBlocks.BRACK_WALL);
+                        entries.add(ModBlocks.BRINE);
+                        entries.add(ModBlocks.BRINE_STAIRS);
+                        entries.add(ModBlocks.BRINE_SLAB);
+                        entries.add(ModBlocks.BRINE_WALL);
+
+                        entries.add(ModBlocks.CORRUM);
+                        entries.add(ModBlocks.CORRUM_STAIRS);
+                        entries.add(ModBlocks.CORRUM_SLAB);
+                        entries.add(ModBlocks.CORRUM_WALL);
+
+                        entries.add(ModBlocks.POLISHED_CORRUM);
+                        entries.add(ModBlocks.POLISHED_CORRUM_STAIRS);
+                        entries.add(ModBlocks.POLISHED_CORRUM_SLAB);
+                        entries.add(ModBlocks.POLISHED_CORRUM_WALL);
+
+                        entries.add(ModBlocks.RIVETED_CORRUM);
+                        entries.add(ModBlocks.RIVETED_CORRUM_STAIRS);
+                        entries.add(ModBlocks.RIVETED_CORRUM_SLAB);
+                        entries.add(ModBlocks.RIVETED_CORRUM_WALL);
+
+                        entries.add(ModBlocks.BLUE_EGG_BLOCK);
+                        entries.add(ModBlocks.BLUE_EGG_STAIRS);
+                        entries.add(ModBlocks.BLUE_EGG_SLAB);
+                        entries.add(ModBlocks.BLUE_EGG_WALL);
 
                     }).build());
 

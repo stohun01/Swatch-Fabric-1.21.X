@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "swatch:brine"
+  },
+  "result": {
+    "count": 2,
+    "id": "swatch:brine_slab"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "values": [
+    "swatch:egg_slab",
+    "swatch:rotten_egg_slab",
+    "swatch:honey_crystal_slab",
+    "swatch:kelp_slab",
+    "swatch:cracked_mud_slab",
+    "swatch:embalm_slab",
+    "swatch:lithosite_slab",
+    "swatch:lithosite_bricks_slab",
+    "swatch:lithosite_tiles_slab",
+    "swatch:polished_lithosite_slab",
+    "swatch:warped_bloom_slab",
+    "swatch:glowing_warped_bloom_slab",
+    "swatch:nether_bloom_slab",
+    "swatch:glowing_nether_bloom_slab",
+    "swatch:terrorcotta_slab",
+    "swatch:terrorcotta_bricks_slab",
+    "swatch:brack_slab",
+    "swatch:brine_slab",
+    "swatch:corrum_slab",
+    "swatch:polished_corrum_slab",
+    "swatch:riveted_corrum_slab",
+    "swatch:blue_egg_slab"
+  ]
+}

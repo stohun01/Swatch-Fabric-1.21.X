@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "swatch:terrorcotta"
+    }
+  },
+  "result": {
+    "id": "swatch:terrorcotta_wall",
+    "count": 6
+  }
+}
